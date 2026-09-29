@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Mindfulness: tornare a vivere con la consapevolezza di noi stessi"
-date: 2026-09-29 12:00:00
+date: 2026-02-20 12:00:00
 image: "images/mindfulness-cover.jpg"
 ---
 
 Questo articolo non vuole essere complesso. Non conterrà sillogismi intricati o valutazioni sofisticate, ma una fotografia chiara di cosa significhi *mindfulness*, cosa significhi essere consapevoli, a cosa possa servirci e che rapporto abbia tutto questo con il nostro corpo.
 
-Trovo essenziale mettere nero su bianco — o meglio, bianco su marrone — questi concetti, così da poterli ampliare in riflessioni future.
+Trovo essenziale mettere nero su bianco — o meglio, bianco su marrone (c'è un refuso, bianco su blu, ma il sito è cambiato nel frattempo ;)  — questi concetti, così da poterli ampliare in riflessioni future.
 
 ![Citazione Oscar Wilde]({{ site.baseurl }}/images/oscar-wilde.jpg)
 
