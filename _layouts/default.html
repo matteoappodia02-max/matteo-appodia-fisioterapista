@@ -37,6 +37,32 @@
                 <div class="post-body">
                     {{ content }}
                 </div>
+
+                <!-- TASTI DI CONDIVISIONE SOCIAL -->
+                <div class="share-section">
+                    <h4>Condividi questo articolo:</h4>
+                    <div class="share-buttons">
+                        <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank" class="share-btn share-whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank" class="share-btn share-facebook">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | url_encode }}" target="_blank" class="share-btn share-linkedin">
+                            <i class="fab fa-linkedin-in"></i> LinkedIn
+                        </a>
+                        <a href="https://t.me/share/url?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&text={{ page.title | url_encode }}" target="_blank" class="share-btn share-telegram">
+                            <i class="fab fa-telegram-plane"></i> Telegram
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SEZIONE CONTATTI FINE ARTICOLO -->
+                <div class="comments-section">
+                    <h4>Hai domande o curiosità?</h4>
+                    <p style="font-size:0.95rem; color:#94a3b8;">Per informazioni o per prenotare una valutazione domiciliare a Foligno, Spoleto o zone limitrofe, puoi contattarmi direttamente su <a href="https://wa.me/393703448214" style="color:#38bdf8;" target="_blank">WhatsApp</a> o via <a href="mailto:matteo.appodia02@gmail.com" style="color:#38bdf8;">Email</a>.</p>
+                </div>
+
             </article>
         </div>
     </main>
