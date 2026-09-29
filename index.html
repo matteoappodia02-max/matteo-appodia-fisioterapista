@@ -1,10 +1,15 @@
+---
+---
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matteo Appodia • Fisioterapia a Domicilio</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Link corretto per assicurare il caricamento del CSS su GitHub Pages -->
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+    
     <!-- FontAwesome per le icone social e contatti -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -13,7 +18,7 @@
     <!-- Header / Navigazione -->
     <header>
         <div class="container nav-container">
-            <div class="logo">Matteo Appodia <span>Fisioterapista</span></div>
+            <div class="logo">Matteo Appodia <span>Fisioterapia</span></div>
             <nav>
                 <a href="#su-di-me">Su di me</a>
                 <a href="#servizi">Servizi</a>
@@ -42,7 +47,8 @@
         <div class="container">
             <div class="about-grid">
                 <div class="about-image">
-                    <img src="images/matteo-appodia.jpg" alt="Matteo Appodia Fisioterapista">
+                    <!-- Link corretto per le immagini su GitHub Pages -->
+                    <img src="{{ '/images/matteo-appodia.jpg' | relative_url }}" alt="Matteo Appodia Fisioterapista">
                 </div>
                 <div class="about-text">
                     <h2>Su di me</h2>
@@ -104,25 +110,30 @@
         <div class="container">
             <h2>Blog & Approfondimenti</h2>
             <div class="grid">
-                <!-- Qui Jekyll caricherà automaticamente i post futuri -->
+                
+                <!-- Il ciclo che carica automaticamente i file Markdown dalla cartella _posts -->
+                {% for post in site.posts %}
                 <div class="blog-card">
-                    <img src="images/blog-1.jpg" alt="Fisioterapia domiciliare">
+                    <!-- Se l'articolo ha un'immagine di copertina, la mostra -->
+                    {% if post.image %}
+                    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                    {% endif %}
+                    
                     <div class="blog-content">
-                        <span class="date">Aggiornato di recente</span>
-                        <h3>Perché scegliere la fisioterapia a domicilio?</h3>
-                        <p>I vantaggi concreti di ricevere un trattamento riabilitativo mirato direttamente nel proprio ambiente domestico.</p>
-                        <a href="#" class="read-more">Leggi articolo &rarr;</a>
+                        <!-- Mostra la data formattata -->
+                        <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+                        <!-- Mostra il titolo -->
+                        <h3>{{ post.title }}</h3>
+                        <!-- Mostra un estratto di testo dell'articolo (prime parole) -->
+                        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                        <!-- Pulsante per leggere tutto -->
+                        <a href="{{ post.url | relative_url }}" class="read-more">Leggi articolo &rarr;</a>
                     </div>
                 </div>
-                <div class="blog-card">
-                    <img src="images/blog-2.jpg" alt="Artrosi e movimento">
-                    <div class="blog-content">
-                        <span class="date">15 Maggio 2026</span>
-                        <h3>Artrosi: è davvero possibile muoversi?</h3>
-                        <p>Scopri perché il movimento attivo è il miglior alleato contro il dolore articolare e come gestirlo al meglio.</p>
-                        <a href="#" class="read-more">Leggi articolo &rarr;</a>
-                    </div>
-                </div>
+                {% else %}
+                <p style="text-align: center; width: 100%; color: #64748b;">Nessun articolo pubblicato al momento. Torna a trovarmi presto!</p>
+                {% endfor %}
+                
             </div>
         </div>
     </section>
@@ -143,6 +154,7 @@
             <div class="social-links-dark">
                 <p>Seguimi sui social:</p>
                 <div class="social-icons">
+                    <!-- INSERISCI QUI I TUOI LINK REALI AI SOCIAL -->
                     <a href="https://www.instagram.com/tuo-profilo" target="_blank" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
                     <a href="https://www.facebook.com/tuo-profilo" target="_blank" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
                 </div>
