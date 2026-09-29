@@ -7,7 +7,7 @@ image: "images/fisioterapia-domiciliare.jpg"
 
 La fisioterapia domiciliare è un approccio terapeutico che si svolge nell’ambiente familiare del paziente. Questo elimina la necessità di spostamenti e, nei casi di disabilità che limitano le attività quotidiane, consente di intervenire riabilitando proprio quei gesti nel luogo in cui devono essere realmente applicati. Il contesto sociale e ambientale diventa parte integrante del trattamento. La casa non è solo il luogo della terapia, ma uno strumento riabilitativo. Questo approccio è in linea con un metodo basato sulle evidenze, che considera la persona nella sua globalità e nel suo contesto di vita.
 
-![Fisioterapia Domiciliare](images/fisioterapia-domiciliare.jpg
+![Fisioterapia Domiciliare](images/fisioterapia-domiciliare.jpg)
 
 ## Vantaggi della Fisioterapia Domiciliare
 
