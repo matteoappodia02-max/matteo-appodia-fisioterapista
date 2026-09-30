@@ -1,6 +1,9 @@
-layout: post title: "Muoversi nonostante il dolore" 
-date: 2026-09-29 17:00:00 
+---
+layout: post 
+title: "Muoversi nonostante il dolore" 
+date: 2026-07-29 17:00:00 
 image: "images/muoversi-dolore.jpg"
+---
 
 Se siete arrivati fin qui probabilmente avete già incontrato questa frase:
 
