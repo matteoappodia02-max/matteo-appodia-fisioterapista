@@ -15,7 +15,7 @@
     <!-- URL CANONICAL -->
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
-    <!-- OPEN GRAPH (Anteprima per WhatsApp, Facebook e Google) -->
+    <!-- OPEN GRAPH -->
     <meta property="og:locale" content="it_IT">
     <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Matteo Appodia • Fisioterapia a Domicilio Foligno e Spoleto{% endif %}">
@@ -30,14 +30,14 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- DATI STRUTTURATI GOOGLE SCHEMA.ORG (Physiotherapist / LocalBusiness) -->
+    <!-- DATI STRUTTURATI GOOGLE SCHEMA.ORG -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Physiotherapist",
       "name": "Matteo Appodia Fisioterapia a Domicilio",
       "image": "{{ site.url }}{{ site.baseurl }}/images/matteo-appodia.jpg",
-      "telePhone": "+393703448214",
+      "telephone": "+393703448214",
       "email": "matteo.appodia02@gmail.com",
       "vatID": "03975090543",
       "priceRange": "€€",
@@ -64,7 +64,7 @@
 </head>
 <body>
 
-    <!-- Header / Navigazione Principale -->
+    <!-- Header / Navigazione Principale Unica -->
     <header>
         <div class="container nav-container">
             <div class="logo"><a href="{{ site.baseurl }}/" style="text-decoration:none; color:inherit;">Matteo Appodia <span>Fisioterapia</span></a></div>
@@ -78,54 +78,10 @@
         </div>
     </header>
 
-    <!-- Content -->
-    {% if page.url == "/" or page.url == "/index.html" %}
-        {{ content }}
-    {% else %}
-        <main class="post-page">
-            <div class="post-container">
-                <a href="{{ site.baseurl }}/#blog" class="btn-back"><i class="fas fa-arrow-left"></i> Torna al Blog</a>
-                <article>
-                    <div class="post-header">
-                        <h1>{{ page.title }}</h1>
-                        <div class="post-meta">Pubblicato il {{ page.date | date: "%d/%m/%Y" }} • Dott. Matteo Appodia</div>
-                    </div>
+    <!-- Contenuto della pagina o dell'articolo -->
+    {{ content }}
 
-                    <div class="post-body">
-                        {{ content }}
-                    </div>
-
-                    <!-- TASTI DI CONDIVISIONE SOCIAL -->
-                    <div class="share-section">
-                        <h4>Condividi questo articolo:</h4>
-                        <div class="share-buttons">
-                            <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank" class="share-btn share-whatsapp">
-                                <i class="fab fa-whatsapp"></i> WhatsApp
-                            </a>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank" class="share-btn share-facebook">
-                                <i class="fab fa-facebook-f"></i> Facebook
-                            </a>
-                            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | url_encode }}" target="_blank" class="share-btn share-linkedin">
-                                <i class="fab fa-linkedin-in"></i> LinkedIn
-                            </a>
-                            <a href="https://t.me/share/url?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&text={{ page.title | url_encode }}" target="_blank" class="share-btn share-telegram">
-                                <i class="fab fa-telegram-plane"></i> Telegram
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- SEZIONE CONTATTI FINE ARTICOLO -->
-                    <div class="comments-section">
-                        <h4>Hai domande o cerchi una valutazione domiciliare?</h4>
-                        <p style="font-size:0.95rem; color:#94a3b8;">Per informazioni o per prenotare una visita a Foligno, Spoleto, Assisi o Bastia Umbra, puoi contattarmi direttamente su <a href="https://wa.me/393703448214" style="color:#38bdf8;" target="_blank">WhatsApp</a> o via <a href="mailto:matteo.appodia02@gmail.com" style="color:#38bdf8;">Email</a>.</p>
-                    </div>
-
-                </article>
-            </div>
-        </main>
-    {% endif %}
-
-    <!-- Footer -->
+    <!-- Footer Unico -->
     <footer>
         <div class="container footer-content">
             <p>&copy; 2026 Matteo Appodia • Fisioterapia a Domicilio. P.IVA: 03975090543. Tutti i diritti riservati.</p>
