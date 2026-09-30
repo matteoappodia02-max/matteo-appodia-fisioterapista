@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Non conta come sei, ma è ciò che fai che ti qualifica: Funzione vs Estetica e Simmetria Posturale"
 date: 2026-04-15 13:00:00
 image: "images/batman-cover.jpg"
