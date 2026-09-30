@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nomeutente.github.io/nome-repo/sitemap.xml
