@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Fisioterapia Domiciliare: Un Approccio Innovativo"
 date: 2026-02-17 10:00:00
 image: "images/fisioterapia-domiciliare.jpg"
