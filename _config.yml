@@ -1,7 +1,3 @@
-title: "Matteo Appodia Fisioterapista"
+title: "Matteo Appodia Fisioterapia"
 description: "Fisioterapia a Domicilio a Foligno, Spoleto, Assisi e Bastia Umbra"
-url: "https://nomeutente.github.io"
-baseurl: "/nome-repo" # Se il repository è la tua pagina principale (es. nomeutente.github.io), lascia baseurl vuoto ""
-plugins:
-  - jekyll-sitemap
 
