@@ -13,21 +13,21 @@
     <meta name="robots" content="index, follow">
     
     <!-- URL CANONICAL -->
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
 
     <!-- OPEN GRAPH -->
     <meta property="og:locale" content="it_IT">
     <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Matteo Appodia • Fisioterapia a Domicilio Foligno e Spoleto{% endif %}">
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Fisioterapia e riabilitazione a domicilio nelle zone di Foligno, Spoleto, Assisi e Bastia Umbra.{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:site_name" content="Matteo Appodia Fisioterapia">
     {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{{ page.image }}">
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
     {% endif %}
 
-    <!-- CSS & FONTS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+    <!-- LINK CSS AUTOMATICO CON relative_url -->
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- DATI STRUTTURATI GOOGLE SCHEMA.ORG -->
@@ -36,7 +36,7 @@
       "@context": "https://schema.org",
       "@type": "Physiotherapist",
       "name": "Matteo Appodia Fisioterapia a Domicilio",
-      "image": "{{ site.url }}{{ site.baseurl }}/images/matteo-appodia.jpg",
+      "image": "{{ '/images/matteo-appodia.jpg' | absolute_url }}",
       "telephone": "+393703448214",
       "email": "matteo.appodia02@gmail.com",
       "vatID": "03975090543",
@@ -58,22 +58,22 @@
         "Neurologic",
         "Physiotherapy"
       ],
-      "url": "{{ site.url }}{{ site.baseurl }}"
+      "url": "{{ '/' | absolute_url }}"
     }
     </script>
 </head>
 <body>
 
-    <!-- Header / Navigazione Principale Unica -->
+    <!-- Header / Navigazione Principale -->
     <header>
         <div class="container nav-container">
-            <div class="logo"><a href="{{ site.baseurl }}/" style="text-decoration:none; color:inherit;">Matteo Appodia <span>Fisioterapia</span></a></div>
+            <div class="logo"><a href="{{ '/' | relative_url }}" style="text-decoration:none; color:inherit;">Matteo Appodia <span>Fisioterapia</span></a></div>
             <nav>
-                <a href="{{ site.baseurl }}/#su-di-me">Su di me</a>
-                <a href="{{ site.baseurl }}/#servizi">Servizi</a>
-                <a href="{{ site.baseurl }}/#hcp">HCP INPS</a>
-                <a href="{{ site.baseurl }}/#blog">Blog</a>
-                <a href="{{ site.baseurl }}/#contatti" class="btn-nav">Contatti</a>
+                <a href="{{ '/#su-di-me' | relative_url }}">Su di me</a>
+                <a href="{{ '/#servizi' | relative_url }}">Servizi</a>
+                <a href="{{ '/#hcp' | relative_url }}">HCP INPS</a>
+                <a href="{{ '/#blog' | relative_url }}">Blog</a>
+                <a href="{{ '/#contatti' | relative_url }}" class="btn-nav">Contatti</a>
             </nav>
         </div>
     </header>
@@ -81,7 +81,7 @@
     <!-- Contenuto della pagina o dell'articolo -->
     {{ content }}
 
-    <!-- Footer Unico -->
+    <!-- Footer -->
     <footer>
         <div class="container footer-content">
             <p>&copy; 2026 Matteo Appodia • Fisioterapia a Domicilio. P.IVA: 03975090543. Tutti i diritti riservati.</p>
