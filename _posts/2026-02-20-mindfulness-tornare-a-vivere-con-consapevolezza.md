@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Mindfulness: tornare a vivere con la consapevolezza di noi stessi"
 date: 2026-02-20 12:00:00
 image: "images/mindfulness-cover.jpg"
