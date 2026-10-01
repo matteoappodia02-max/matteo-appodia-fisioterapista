@@ -7,7 +7,7 @@ image: "images/dune.jpg"
 
 Oggi, apparentemente, usciamo dall'ottica puramente fisioterapica. Voglio infatti introdurre, esponendomi inevitabilmente a giudizi personali e professionali, un tema che considero centrale e che, a mio avviso, dovrebbe esserlo anche nel mondo della riabilitazione.
 
-Come ho già raccontato nell'articolo [Muoversi nonostante il dolore]({% post_url 2026-07-29-muoversi-nonostante-il-dolore %}), il dolore, pur sembrando spesso il centro, l'alfa e l'omega della fisioterapia, è in realtà un fenomeno complesso, che merita di essere osservato con attenzione per comprenderne le diverse sfaccettature e il ruolo che può assumere nella sofferenza della persona.
+Come ho già raccontato nell'articolo [Muoversi nonostante il dolore]({% post_url 2026-07-29-muoversi-nonostante-il-dolore.md %}), il dolore, pur sembrando spesso il centro, l'alfa e l'omega della fisioterapia, è in realtà un fenomeno complesso, che merita di essere osservato con attenzione per comprenderne le diverse sfaccettature e il ruolo che può assumere nella sofferenza della persona.
 
 Oggi, al centro del discorso, c'è qualcos'altro. Qualcosa di nascosto, che si insinua lentamente, rimane silente, ma caratterizza e modifica i nostri atteggiamenti. Qualcosa di ancestrale, che ci ha accompagnato nella sopravvivenza, ma che può anche condurci verso l'annullamento. Un elemento talmente familiare e comune che impariamo a conoscere fin da piccoli, ma che spesso può impedirci di esistere senza che riusciamo nemmeno a dargli un nome: **la paura**.
 
