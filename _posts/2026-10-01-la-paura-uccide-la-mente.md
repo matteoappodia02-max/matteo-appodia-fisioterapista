@@ -7,24 +7,24 @@ image: "images/dune.jpg"
 
 Oggi, apparentemente, usciamo dall'ottica puramente fisioterapica. Voglio infatti introdurre, esponendomi inevitabilmente a giudizi personali e professionali, un tema che considero centrale e che, a mio avviso, dovrebbe esserlo anche nel mondo della riabilitazione.
 
-Come ho già raccontato nell'articolo [Muoversi nonostante il dolore]({% post_url 2026-07-29-muoversi-nonostante-il-dolore.md %}), il dolore, pur sembrando spesso il centro, l'alfa e l'omega della fisioterapia, è in realtà un fenomeno complesso, che merita di essere osservato con attenzione per comprenderne le diverse sfaccettature e il ruolo che può assumere nella sofferenza della persona.
+Come ho già raccontato nell'articolo [Muoversi nonostante il dolore]({{ site.baseurl }}/2026/07/29/muoversi-nonostante-il-dolore.html), il dolore, pur sembrando spesso il centro, l'alfa e l'omega della fisioterapia, è in realtà un fenomeno complesso, che merita di essere osservato con attenzione per comprenderne le diverse sfaccettature e il ruolo che può assumere nella sofferenza della persona.
 
 Oggi, al centro del discorso, c'è qualcos'altro. Qualcosa di nascosto, che si insinua lentamente, rimane silente, ma caratterizza e modifica i nostri atteggiamenti. Qualcosa di ancestrale, che ci ha accompagnato nella sopravvivenza, ma che può anche condurci verso l'annullamento. Un elemento talmente familiare e comune che impariamo a conoscere fin da piccoli, ma che spesso può impedirci di esistere senza che riusciamo nemmeno a dargli un nome: **la paura**.
 
-
+![La paura uccide la mente]({{ site.baseurl }}/images/dune.jpg)
 *“La paura è la piccola morte che porta alla distruzione totale.” — Dune*
 
 Il titolo, se amate la lettura o i film di fantascienza, potrà risultarvi familiare. Come spesso mi piace fare, voglio partire da una citazione narrativa per provare a descrivere le pieghe che si avviluppano l'una sull'altra e che danno vita all'argomento centrale di questo articolo: **Dune**.
 
 In *Dune*, il tema della paura è centrale e trova una delle sue rappresentazioni più celebri nelle parole che Lady Jessica, madre di Paul, ripete mentre il figlio affronta la prova della Reverenda Madre. Jessica è terrorizzata per le sorti del figlio. Paul è sottoposto a una prova che potrebbe costargli la vita e lei, incapace di intervenire, cerca disperatamente di mantenere il controllo. Ripete allora, quasi meccanicamente, quelle parole che nel mondo di Dune sono conosciute come la **Litania contro la paura**:
 
-> *«Non devo aver paura.*  
-> *La paura uccide la mente.*  
-> *La paura è la piccola morte che porta alla distruzione totale.*  
-> *Affronterò la mia paura.*  
-> *Permetterò che passi oltre e mi attraversi.*  
-> *E quando sarà passata, seguirò il suo percorso con il mio occhio interiore.*  
-> *Dove è andata la paura non ci sarà nulla, rimarrò soltanto Io.»*
+> «Non devo aver paura.
+> La paura uccide la mente.
+> La paura è la piccola morte che porta alla distruzione totale.
+> Affronterò la mia paura.
+> Permetterò che passi oltre e mi attraversi.
+> E quando sarà passata, seguirò il suo percorso con il mio occhio interiore.
+> Dove è andata la paura non ci sarà nulla, rimarrò soltanto Io.»
 
 ---
 
@@ -95,7 +95,7 @@ Se andiamo a scavare, scopriamo che la paura si manifesta attraverso pensieri ed
 
 Possiamo arrivare ad evitare un movimento anche senza che quel movimento ci abbia mai fatto male, perché la paura tende a **generalizzarsi**. Un movimento o una posizione che assomiglia a quella che consideriamo pericolosa diventa a sua volta qualcosa da evitare.
 
-Per questo, nella riabilitazione, è fondamentale tornare gradualmente ad esplorare movimenti nuovi o dimenticati. 
+Per questo, nella riabilitazione, è fondamentale tornare gradualmente ad esplorare movimenti nuovi o dimenticati.
 
 Attraverso il movimento possiamo fare esperienza del fatto che **possiamo agire anche quando non abbiamo la certezza assoluta che tutto andrà bene.** Possiamo smettere, poco alla volta, di chiedere alla paura il permesso di fare ciò che per noi conta.
 
