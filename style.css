@@ -279,7 +279,7 @@ nav a:hover {
     font-size: 1.3rem;
 }
 
-/* Blog Cards (Aggiornato con altezza fissa dell'immagine) */
+/* Blog Cards (Anteprime nella Home) */
 .blog-card {
     background: var(--white);
     border-radius: 8px;
@@ -291,9 +291,9 @@ nav a:hover {
 
 .blog-card img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
+    height: 220px;
+    object-fit: contain; /* Mostra l'immagine completa nelle anteprime (sia orizz. che vert.) */
+    background-color: #0f172a; /* Sfondo scuro elegante per riempire i lati delle foto verticali */
 }
 
 .blog-content {
@@ -476,7 +476,7 @@ footer {
 
 .post-meta {
     font-size: 0.95rem;
-    color: #38bdf8; /* Azzurro luminoso per la data */
+    color: #38bdf8;
     font-weight: 500;
 }
 
@@ -492,7 +492,7 @@ footer {
 .post-body {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #f1f5f9; /* Scritte bianche/chiare e ben leggibili */
+    color: #f1f5f9;
 }
 
 .post-body h2 {
@@ -524,14 +524,53 @@ footer {
     margin-bottom: 10px;
 }
 
+/* BLOCCHI DI CITAZIONE (Es: Litania di Dune) */
 .post-body blockquote {
     border-left: 4px solid #38bdf8;
-    padding: 12px 20px;
-    font-style: italic;
-    background: rgba(2, 132, 199, 0.1);
-    color: #e2e8f0;
-    margin: 25px 0;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    background: rgba(15, 23, 42, 0.6);
     border-radius: 0 8px 8px 0;
+}
+
+.post-body blockquote p {
+    margin: 0.4rem 0 !important;
+    text-align: left !important;
+    font-style: italic;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+/* RIPRISTINO CORSIVO NORMALE NEL TESTO */
+.post-body em {
+    display: inline;
+    text-align: left;
+    font-style: italic;
+    color: inherit;
+    margin: 0;
+}
+
+/* DIDASCALIE SOTTO LE IMMAGINI (Testo in corsivo messo sotto le foto) */
+.post-body p > img + em,
+.post-body figure figcaption {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* REGOLA IMMAGINI NEGLI ARTICOLI (Mantiene foto intere senza tagliare) */
+.post-body img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px; 
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    object-fit: contain; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .btn-back {
@@ -549,17 +588,6 @@ footer {
 .btn-back:hover {
     transform: translateX(-4px);
     color: #7dd3fc;
-}
-
-/* NUOVO: Styling e limiti dimensioni per immagini e condivisione negli articoli */
-.post-body img {
-    width: 100%;
-    max-height: 380px;      /* Altezza massima standard per evitare immagini enormi */
-    object-fit: cover;
-    border-radius: 8px;
-    margin: 25px auto;
-    display: block;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .share-section {
@@ -621,32 +649,4 @@ footer {
     .post-header h1 {
         font-size: 1.8rem;
     }
-}
-/* REGOLA PER LE IMMAGINI DENTRO GLI ARTICOLI (Mantiene foto verticali e orizzontali intere) */
-.post-body img {
-    max-width: 100%;
-    height: auto;
-    max-height: 600px; /* Limita l'altezza massima così le foto verticali non occupano tutto lo schermo */
-    display: block;
-    margin: 2rem auto;
-    border-radius: 8px;
-    object-fit: contain; /* Evita qualsiasi ritaglio dell'immagine */
-}
-
-/* DIDASCALIE SOTTO LE FOTO (Testo in corsivo sotto le immagini) */
-.post-body em {
-    display: block;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #94a3b8;
-    margin-top: -1.2rem;
-    margin-bottom: 2rem;
-}
-
-/* ANTEPRIME NELLE CARD DEL BLOG (Home Page) */
-.blog-card img {
-    width: 100%;
-    height: 220px;
-    object-fit: contain; /* Mostra l'immagine completa nelle anteprime */
-    background-color: #0f172a; /* Sfondo scuro elegante per riempire i lati delle foto verticali */
 }
