@@ -2,7 +2,7 @@
 layout: post
 title: "Muoversi nonostante il dolore"
 date: 2026-07-29 17:00:00
-image: "images/muoversi-dolore.jpg"
+image: "images/muoversi-dolore.jpeg"
 ---
 
 Se siete arrivati fin qui probabilmente avete già incontrato questa frase:
@@ -17,7 +17,7 @@ Al primo impatto viene interpretato con una certa perplessità e scatena quasi u
 
 Eppure il mio obiettivo non è eliminare il dolore a tutti i costi. Il mio obiettivo è aiutare le persone a **tornare a vivere le attività che per loro hanno valore**.
 
-![Muoversi nonostante il dolore]({{ site.baseurl }}/images/muoversi-dolore.jpg)
+![Muoversi nonostante il dolore]({{ site.baseurl }}/images/muoversi-dolore.jpeg)
 *Muoversi nonostante il dolore: riprendere il controllo delle proprie attività di valore.*
 
 Il fisioterapista non è il medico del dolore. È una figura che dovrebbe accompagnarci nel recupero delle nostre attività e che, a seguito di un infortunio, di un evento acuto o di una problematica cronica, ci aiuti a tornare a muoverci.
