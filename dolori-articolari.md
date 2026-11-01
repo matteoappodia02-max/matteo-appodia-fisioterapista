@@ -7,21 +7,21 @@ permalink: /fisioterapia-domicilio/dolori-articolari/
 <div class="section section-light">
     <div class="container">
         <h1 style="color: var(--primary); font-size: 2.3rem; text-align: center; margin-bottom: 15px;">Riabilitazione per Dolori Articolari a Domicilio</h1>
-        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto;">Trattamento mirato per male alla schiena, dolori al ginocchio, anca e spalla senza dipendere da macchinari passivi.</p>
+        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto; text-align: center; color: #1e293b; font-size: 1.15rem;">Trattamento mirato per male alla schiena, dolori al ginocchio, anca e spalla senza dipendere da macchinari passivi.</p>
 
         <div class="about-grid" style="margin-bottom: 50px;">
             <div class="about-text">
-                <h2 style="color: var(--accent); font-size: 1.8rem;">Muoversi in sicurezza anche con il dolore</h2>
-                <p>Che si tratti di un mal di schiena acuto, di un'artrosi al ginocchio o all'anca, o di una patologia dolorosa della spalla, il dolore articolare tende spesso a paralizzare e a far evitare il movimento.</p>
-                <p>L'approccio clinico è basato sulle più recenti ed efficaci evidenze scientifiche, dando priorità ad un percorso attivo dove l'obiettivo finale sarà restituire la massima libertà di movimento.  L'approccio comprende un utilizzo specifico e dell'esercizio terapeutico, integrando i principi della Fisioterapia Psicologicamente Informata (PIPT) per abbassare le protezioni del sistema nervoso e consentire di riprendere le proprie attività:</p>
-                <ul style="margin: 20px 0 20px 20px; color: var(--text-light); line-height: 1.8;">
-                    <li><strong>Valutazione su misura:</strong> individuazione delle cause e del livello di tolleranza al carico.</li>
-                    <li><strong>Esposizione al movimento temuto o evitato:</strong> esercizi mirati per rinforzare le strutture articolari senza sovraccaricarle.</li>
-                    <li><strong>Gestione dell'autoefficacia:</strong> apprendere come svolgere il movimento anche durante i picchi di fastidio.</li>
+                <h2 style="color: var(--accent); font-size: 1.8rem; margin-bottom: 15px;">Muoversi in sicurezza anche con il dolore</h2>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">Che si tratti di un mal di schiena acuto, di un'artrosi al ginocchio o all'anca, o di una patologia dolorosa della spalla, il dolore articolare tende spesso a paralizzare e a far evitare il movimento.</p>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">L'approccio clinico unisce la terapia manuale all'esercizio terapeutico dosato, integrando i principi della Fisioterapia Psicologicamente Informata (PACT) per disattivare l'iper-protezione del sistema nervoso e consentire di riprendere le proprie attività:</p>
+                <ul style="margin: 20px 0 20px 20px; color: #334155; line-height: 1.8; font-size: 1.05rem;">
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Valutazione funzionale su misura:</strong> individuazione delle cause e del livello di tolleranza al carico.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Esposizione graduale al movimento:</strong> esercizi mirati per rinforzare le strutture articolari senza sovraccaricarle.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Gestione dell'autoefficacia:</strong> apprendere come dosare il movimento anche durante i picchi di fastidio.</li>
                 </ul>
             </div>
             <div class="about-image">
-                <img src="{{ site.baseurl }}/images/muoversi-dolore.jpg" alt="Trattamento dolori articolari a domicilio" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%;">
+                <img src="{{ site.baseurl }}/images/muoversi-dolore.jpg" alt="Trattamento dolori articolari a domicilio" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@ permalink: /fisioterapia-domicilio/dolori-articolari/
             </details>
         </div>
         <div style="text-align: center; margin-top: 50px;">
-            <a href="https://wa.me/39XXXXXXXXXX" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Prenota un consulto per dolore articolare</a>
+            <a href="https://wa.me/393703448214" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Prenota un consulto per dolore articolare</a>
         </div>
     </div>
 </div>
