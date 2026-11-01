@@ -7,21 +7,21 @@ permalink: /fisioterapia-domicilio/anziani/
 <div class="section section-light">
     <div class="container">
         <h1 style="color: var(--primary); font-size: 2.3rem; text-align: center; margin-bottom: 15px;">Riabilitazione Funzionale alla Vita Quotidiana per Anziani</h1>
-        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto;">Mantenere la forza, prevenire le cadute e proteggere l'autonomia negli spazi della propria casa a Foligno e dintorni.</p>
+        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto; text-align: center; color: #1e293b; font-size: 1.15rem;">Mantenere la forza, prevenire le cadute e proteggere l'autonomia negli spazi della propria casa a Foligno e dintorni.</p>
 
         <div class="about-grid" style="margin-bottom: 50px;">
             <div class="about-text">
-                <h2 style="color: var(--accent); font-size: 1.8rem;">L'autonomia si allena dove si vive</h2>
-                <p>Con l'avanzare dell'età, la perdita graduale di sicurezza nei movimenti può trasformarsi nel timore di cadere e nella progressiva rinuncia alle attività di tutti i giorni. Tuttavia, l'invecchiamento non deve coincidere con una perdita inevitabile di autonomia.</p>
-                <p>Il percorso di riabilitazione domiciliare per l'anziano si basa su programmi evidence-based (come il protocollo multicomponente <strong>FaME</strong> e l'allenamento con sovraccarico progressivo) pensati per riattivare le capacità fisiche reali:</p>
-                <ul style="margin: 20px 0 20px 20px; color: var(--text-light); line-height: 1.8;">
-                    <li><strong>Forza degli arti inferiori:</strong> per alzarsi dalla sedia o dal letto senza aiuto.</li>
-                    <li><strong>Equilibrio e stabilità:</strong> per affrontare ostacoli domestici, tappeti e scale in sicurezza.</li>
-                    <li><strong>Strategie anti-caduta:</strong> esercizi pratici per recuperare la sicurezza e imparare le manovre di rialzata da terra.</li>
+                <h2 style="color: var(--accent); font-size: 1.8rem; margin-bottom: 15px;">L'autonomia si allena dove si vive</h2>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">Con l'avanzare dell'età, la perdita graduale di sicurezza nei movimenti può trasformarsi nel timore di cadere e nella progressiva rinuncia alle attività di tutti i giorni. Tuttavia, l'invecchiamento non deve coincidere con una perdita inevitabile di autonomia.</p>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">Il percorso di riabilitazione domiciliare per l'anziano si basa su programmi evidence-based (come il protocollo multicomponente <strong>FaME</strong> e l'allenamento con sovraccarico progressivo) pensati per riattivare le capacità fisiche reali:</p>
+                <ul style="margin: 20px 0 20px 20px; color: #334155; line-height: 1.8; font-size: 1.05rem;">
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Forza degli arti inferiori:</strong> per alzarsi dalla sedia o dal letto senza aiuto.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Equilibrio e stabilità:</strong> per affrontare ostacoli domestici, tappeti e scale in sicurezza.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Strategie anti-caduta:</strong> esercizi pratici per recuperare la sicurezza e imparare le manovre per rialzarsi da terra.</li>
                 </ul>
             </div>
             <div class="about-image">
-                <img src="{{ site.baseurl }}/images/anziano.jpg" alt="Riabilitazione per anziani a domicilio" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%;">
+                <img src="{{ site.baseurl }}/images/anziano.jpg" alt="Riabilitazione per anziani a domicilio" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@ permalink: /fisioterapia-domicilio/anziani/
             </details>
         </div>
         <div style="text-align: center; margin-top: 50px;">
-            <a href="https://wa.me/39XXXXXXXXXX" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Richiedi una valutazione a domicilio</a>
+            <a href="https://wa.me/393703448214" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Richiedi una valutazione a domicilio</a>
         </div>
     </div>
 </div>
