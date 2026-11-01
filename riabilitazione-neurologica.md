@@ -22,7 +22,7 @@ permalink: /fisioterapia-domicilio/neurologica/
             </div>
             <div class="about-image">
                 <!-- Se hai una foto più adatta cambiala qui sotto al posto di batman.jpg -->
-                <img src="{{ site.baseurl }}/images/batman.jpg" alt="Riabilitazione neurologica a domicilio" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                <img src="{{ site.baseurl }}/images/neurorehub.jpg" alt="Riabilitazione neurologica a domicilio" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
         </div>
     </div>
