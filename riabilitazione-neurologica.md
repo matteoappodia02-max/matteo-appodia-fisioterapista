@@ -7,21 +7,22 @@ permalink: /fisioterapia-domicilio/neurologica/
 <div class="section section-light">
     <div class="container">
         <h1 style="color: var(--primary); font-size: 2.3rem; text-align: center; margin-bottom: 15px;">Riabilitazione Neurologica a Domicilio</h1>
-        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto;">Interventi riabilitativi domiciliari per Malattia di Parkinson, esiti di Ictus cerebrale e patologie neurologiche.</p>
+        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto; text-align: center; color: #1e293b; font-size: 1.15rem;">Interventi riabilitativi domiciliari per Malattia di Parkinson, esiti di Ictus cerebrale e patologie neurologiche.</p>
 
         <div class="about-grid" style="margin-bottom: 50px;">
             <div class="about-text">
-                <h2 style="color: var(--accent); font-size: 1.8rem;">Stimolare la neuroplasticità nel proprio ambiente</h2>
-                <p>Nelle condizioni neurologiche, il recupero e il mantenimento delle funzioni motorie richiedono continuità, specificità e un lavoro incentrato sui compiti reali (task-oriented training).</p>
-                <p>L'ambiente domestico rappresenta il setting ideale per tradurre l'esercizio neuro-riabilitativo in abilità concrete per la vita quotidiana:</p>
-                <ul style="margin: 20px 0 20px 20px; color: var(--text-light); line-height: 1.8;">
-                    <li><strong>Malattia di Parkinson:</strong> lavoro su strategie di cueing (visivo e acustico) per superare i blocchi del cammino (freezing), ampiezza di movimento ed equilibrio.</li>
-                    <li><strong>Esiti di Ictus:</strong> rieducazione del passo, recupero dei trasferimenti posturali, prevenzione delle cadute e stimolazione dell'emilato interessato.</li>
-                    <li><strong>Coinvolgimento dei caregiver:</strong> istruzioni chiare ai familiari sulle corrette manovre di assistenza e sulla gestione della sicurezza domestica.</li>
+                <h2 style="color: var(--accent); font-size: 1.8rem; margin-bottom: 15px;">Stimolare la neuroplasticità nel proprio ambiente</h2>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">Nelle condizioni neurologiche, il recupero e il mantenimento delle funzioni motorie richiedono continuità, specificità e un lavoro incentrato sui compiti reali (task-oriented training).</p>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">L'ambiente domestico rappresenta il setting ideale per tradurre l'esercizio neuro-riabilitativo in abilità concrete per la vita quotidiana:</p>
+                <ul style="margin: 20px 0 20px 20px; color: #334155; line-height: 1.8; font-size: 1.05rem;">
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Malattia di Parkinson:</strong> lavoro su strategie di cueing (visivo e acustico) per superare i blocchi del cammino (freezing), ampiezza di movimento ed equilibrio.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Esiti di Ictus:</strong> rieducazione del passo, recupero dei trasferimenti posturali, prevenzione delle cadute e stimolazione dell'emilato interessato.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Coinvolgimento dei caregiver:</strong> istruzioni chiare ai familiari sulle corrette manovre di assistenza e sulla gestione della sicurezza domestica.</li>
                 </ul>
             </div>
             <div class="about-image">
-                <img src="{{ site.baseurl }}/images/batman-cover.jpg" alt="Riabilitazione neurologica a domicilio" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%;">
+                <!-- Se hai una foto più adatta cambiala qui sotto al posto di batman.jpg -->
+                <img src="{{ site.baseurl }}/images/batman.jpg" alt="Riabilitazione neurologica a domicilio" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
         </div>
     </div>
@@ -37,7 +38,7 @@ permalink: /fisioterapia-domicilio/neurologica/
             </details>
         </div>
         <div style="text-align: center; margin-top: 50px;">
-            <a href="https://wa.me/39XXXXXXXXXX" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Richiedi informazioni per riabilitazione neurologica</a>
+            <a href="https://wa.me/393703448214" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Richiedi informazioni per riabilitazione neurologica</a>
         </div>
     </div>
 </div>
