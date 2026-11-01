@@ -40,32 +40,63 @@ layout: default
                 <li><i class="fas fa-check"></i> Attenzione esclusiva e continuità terapeutica</li>
                 <li><i class="fas fa-check"></i> Riabilitazione proprio dove serve</li>
             </ul>
-            <p class="service-area-dark"><em>Il servizio è attivo a Foligno, Assisi, Spoleto e zone limitrofe.</em></p>
+            <p class="service-area-dark"><em>Il servizio è attivo a Foligno, Spello, Trevi e zone limitrofe. Chiamami per capire se posso raggiungerti!</em></p>
         </div>
     </div>
 </section>
 
-<!-- SEZIONE 3: SERVIZI -->
-<section id="servizi" class="section section-light">
+<!-- SEZIONE SERVIZI PRINCIPALI -->
+<div class="section section-light" id="servizi">
     <div class="container">
-        <h2>Servizi</h2>
-        <p class="section-subtitle">Ti riconosci in una di queste situazioni?</p>
-        <div class="grid">
-            <div class="card">
-                <h3>Fisioterapia muscoloscheletrica</h3>
-                <p>Trattamento di lombalgia, cervicalgia, dolore alla spalla, ginocchio e tutte le altre articolazioni o distretti corporei, con programmi personalizzati per migliorare forza, mobilità e funzione e tornare finalmente a muoversi al meglio.</p>
+        <h2 style="text-align: center; color: var(--primary); margin-bottom: 10px;">Percorsi di Fisioterapia a Domicilio</h2>
+        <p class="section-subtitle" style="margin-bottom: 50px;">Interventi riabilitativi personalizzati a Foligno e dintorni, direttamente negli spazi della tua vita quotidiana.</p>
+        
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px;">
+            
+            <!-- Card 1: Anziani -->
+            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <h3 style="color: var(--primary); font-size: 1.3rem;">Anziani e Autonomia</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Prevenzione cadute, recupero della forza e della sicurezza nei movimenti di tutti i giorni.</p>
+                </div>
+                <a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" class="read-more">Scopri il percorso →</a>
             </div>
-            <div class="card">
-                <h3>Riabilitazione neurologica</h3>
-                <p>Percorsi riabilitativi domiciliari per migliorare autonomia, equilibrio e qualità della vita, o garantire il mantenimento delle condizioni e prevenire danni terziari in persone con condizioni più gravi ed avanzate.</p>
+
+            <!-- Card 2: Dolori Articolari -->
+            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-space-between;">
+                <div>
+                    <h3 style="color: var(--primary); font-size: 1.3rem;">Dolori Articolari</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Trattamento per mal di schiena, ginocchio, anca e spalla senza paura di muoversi.</p>
+                </div>
+                <a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" class="read-more">Scopri il percorso →</a>
             </div>
-            <div class="card">
-                <h3>Riabilitazione post-operatoria</h3>
-                <p>Recupero funzionale post-interventi ortopedici con programmi strutturati e progressivi direttamente a domicilio: il miglior luogo per recuperare al più presto la propria funzionalità e libertà.</p>
+
+            <!-- Card 3: Neurologia -->
+            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-space-between;">
+                <div>
+                    <h3 style="color: var(--primary); font-size: 1.3rem;">Riabilitazione Neurologica</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Interventi specifici per Malattia di Parkinson, esiti di Ictus e rieducazione del passo.</p>
+                </div>
+                <a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" class="read-more">Scopri il percorso →</a>
             </div>
+
+            <!-- Card 4: Post-Chirurgica -->
+            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-space-between;">
+                <div>
+                    <h3 style="color: var(--primary); font-size: 1.3rem;">Post-Chirurgica</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Assistenza riabilitativa immediata per protesi d'anca, ginocchio e recupero da fratture.</p>
+                </div>
+                <a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" class="read-more">Scopri il percorso →</a>
+            </div>
+
+        </div>
+
+        <!-- Callout per la pagina Hub completa -->
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="{{ site.baseurl }}/fisioterapia-a-domicilio/" class="btn btn-secondary">Vedi tutti i dettagli dei servizi a domicilio</a>
         </div>
     </div>
-</section>
+</div>
 
 <!-- SEZIONE 4: PROGETTO HCP INPS -->
 <section id="hcp" class="section section-dark hcp-section-dark">
