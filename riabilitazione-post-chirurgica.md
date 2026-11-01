@@ -7,21 +7,22 @@ permalink: /fisioterapia-domicilio/post-chirurgica/
 <div class="section section-light">
     <div class="container">
         <h1 style="color: var(--primary); font-size: 2.3rem; text-align: center; margin-bottom: 15px;">Riabilitazione Post-Chirurgica a Domicilio</h1>
-        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto;">Assistenza riabilitativa immediata dopo interventi ortopedici: protesi di anca e ginocchio, interventi di spalla e fratture.</p>
+        <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto; text-align: center; color: #1e293b; font-size: 1.15rem;">Assistenza riabilitativa immediata dopo interventi ortopedici: protesi di anca e ginocchio, interventi di spalla e fratture.</p>
 
         <div class="about-grid" style="margin-bottom: 50px;">
             <div class="about-text">
-                <h2 style="color: var(--accent); font-size: 1.8rem;">Dal ricovero al ritorno all'autonomia domestica</h2>
-                <p>I primi giorni e le prime settimane successive a un intervento chirurgico ortopedico o alla dimissione dall'ospedale sono fondamentali per il corretto recupero e per evitare complicanze da immobilità.</p>
-                <p>Il servizio domiciliare consente di iniziare subito il percorso riabilitativo senza lo stress del trasporto in ambulatorio o di lunghi tempi d'attesa:</p>
-                <ul style="margin: 20px 0 20px 20px; color: var(--text-light); line-height: 1.8;">
-                    <li><strong>Protesi d'anca e di ginocchio:</strong> controllo dell'edema, recupero dell'artcolarità e rieducazione alla deambulazione con o senza ausili.</li>
-                    <li><strong>Post-operatorio di spalla e colonna:</strong> gestione della cicatrice, recupero dei movimenti controllati e reintegrazione funzionale.</li>
-                    <li><strong>Esiti di fratture (es. femore, omero, polso):</strong> progressivo svezzamento dal carico e rinforzo muscolare mirato.</li>
+                <h2 style="color: var(--accent); font-size: 1.8rem; margin-bottom: 15px;">Dal ricovero al ritorno all'autonomia domestica</h2>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">I primi giorni e le prime settimane successive a un intervento chirurgico ortopedico o alla dimissione dall'ospedale sono fondamentali per il corretto recupero e per evitare complicanze da immobilità.</p>
+                <p style="color: #1e293b; line-height: 1.7; margin-bottom: 15px; font-size: 1.05rem;">Il servizio domiciliare consente di iniziare subito il percorso riabilitativo senza lo stress del trasporto in ambulatorio o di lunghi tempi d'attesa:</p>
+                
+                <ul style="margin: 20px 0 20px 20px; color: #334155; line-height: 1.8; font-size: 1.05rem;">
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Protesi d'anca e di ginocchio:</strong> controllo dell'edema, recupero dell'articolarità e rieducazione alla deambulazione con o senza ausili.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Post-operatorio di spalla e colonna:</strong> gestione della cicatrice, recupero dei movimenti controllati e reintegrazione funzionale.</li>
+                    <li style="margin-bottom: 10px;"><strong style="color: #0f172a;">Esiti di fratture (es. femore, omero, polso):</strong> progressivo svezzamento dal carico e rinforzo muscolare mirato.</li>
                 </ul>
             </div>
             <div class="about-image">
-                <img src="{{ site.baseurl }}/images/batman.jpg" alt="Riabilitazione post chirurgica a domicilio" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%;">
+                <img src="{{ site.baseurl }}/images/batman.jpg" alt="Riabilitazione post chirurgica a domicilio" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
         </div>
     </div>
@@ -37,7 +38,7 @@ permalink: /fisioterapia-domicilio/post-chirurgica/
             </details>
         </div>
         <div style="text-align: center; margin-top: 50px;">
-            <a href="https://wa.me/39XXXXXXXXXX" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Prenota l'assistenza post-chirurgica</a>
+            <a href="https://wa.me/393703448214" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Prenota l'assistenza post-chirurgica</a>
         </div>
     </div>
 </div>
