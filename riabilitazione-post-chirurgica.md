@@ -40,7 +40,7 @@ permalink: /fisioterapia-domicilio/post-chirurgica/
             </div>
 
             <div class="about-image">
-                <img src="{{ site.baseurl }}/images/post-chirurgica.jpg" alt="Fisioterapia post-chirurgica a domicilio a Foligno" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                <img src="{{ site.baseurl }}/images/postchirurgica.jpg" alt="Fisioterapia post-chirurgica a domicilio a Foligno" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
 
         </div>
