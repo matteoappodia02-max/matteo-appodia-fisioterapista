@@ -154,8 +154,45 @@ permalink: /fisioterapia-domicilio/anziani/
         </div>
     </div>
 </div>
-
 <!-- FAQ -->
 <div class="section section-dark">
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 15px;">Domande frequenti sulla
+        <h2 style="text-align: center; margin-bottom: 15px;">Domande frequenti sulla fisioterapia per anziani</h2>
+        <p style="text-align: center; color: #cbd5e1; max-width: 750px; margin: 0 auto 35px auto; line-height: 1.7;">Alcune informazioni utili per comprendere come funziona un percorso di fisioterapia domiciliare dedicato all'autonomia e alla prevenzione delle cadute.</p>
+
+        <div style="max-width: 850px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+            <details style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                <summary style="font-size: 1.1rem; font-weight: 600; color: #38bdf8;">La fisioterapia per anziani è indicata anche senza patologie particolari?</summary>
+                <p style="margin-top: 15px; color: #cbd5e1; line-height: 1.7; padding-left: 20px; border-left: 2px solid #38bdf8;">Sì. Non è necessario avere una patologia specifica per beneficiare di un programma di esercizio personalizzato. Anche una riduzione della forza, dell'equilibrio o della sicurezza nei movimenti può rappresentare un motivo per richiedere una valutazione fisioterapica.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                <summary style="font-size: 1.1rem; font-weight: 600; color: #38bdf8;"> È utile iniziare un percorso dopo una caduta?</summary>
+                <p style="margin-top: 15px; color: #cbd5e1; line-height: 1.7; padding-left: 20px; border-left: 2px solid #38bdf8;">Una caduta merita sempre attenzione, soprattutto se ha provocato dolore o lesioni. Una volta escluse o gestite eventuali conseguenze acute, la fisioterapia può aiutare a valutare le capacità motorie e lavorare sulle difficoltà che possono aver contribuito alla perdita di sicurezza.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                <summary style="font-size: 1.1rem; font-weight: 600; color: #38bdf8;">Si può imparare a rialzarsi da terra?</summary>
+                <p style="margin-top: 15px; color: #cbd5e1; line-height: 1.7; padding-left: 20px; border-left: 2px solid #38bdf8;">In molti casi è possibile allenare strategie e capacità necessarie per rialzarsi, compatibilmente con le condizioni fisiche della persona. Il lavoro viene introdotto gradualmente e soltanto quando è sicuro e appropriato.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                <summary style="font-size: 1.1rem; font-weight: 600; color: #38bdf8;">Gli esercizi sono adatti anche a persone molto anziane o poco allenate?</summary>
+                <p style="margin-top: 15px; color: #cbd5e1; line-height: 1.7; padding-left: 20px; border-left: 2px solid #38bdf8;">Sì. Gli esercizi vengono adattati al livello di partenza. Non è necessario essere già allenati: il programma viene costruito proprio per sviluppare progressivamente le capacità disponibili, rispettando le condizioni della persona.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                <summary style="font-size: 1.1rem; font-weight: 600; color: #38bdf8;">Serve attrezzatura specifica per le sedute a casa?</summary>
+                <p style="margin-top: 15px; color: #cbd5e1; line-height: 1.7; padding-left: 20px; border-left: 2px solid #38bdf8;">Non è necessario acquistare attrezzatura. Porto con me gli strumenti utili per il programma, come elastici e piccoli pesi. Quando appropriato, utilizziamo anche gli arredi e gli spazi della casa, ad esempio sedie e gradini, per rendere gli esercizi direttamente collegati alle attività quotidiane.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                <summary style="font-size: 1.1rem; font-weight: 600; color: #38bdf8;">La fisioterapia è adatta anche a chi ha molta paura di cadere?</summary>
+                <p style="margin-top: 15px; color: #cbd5e1; line-height: 1.7; padding-left: 20px; border-left: 2px solid #38bdf8;">Sì. La paura di cadere può limitare significativamente il movimento e la partecipazione alle attività quotidiane. Il percorso tiene conto di questa difficoltà e propone esercizi progressivi, adeguati alle capacità della persona, per sviluppare maggiore sicurezza e fiducia nei propri movimenti.</p>
+            </details>
+            <details style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                <summary style="font-size: 1.1rem; font-weight: 600; color: #38bdf8;">Quanto dura un percorso di fisioterapia?</summary>
+                <p style="margin-top: 15px; color: #cbd5e1; line-height: 1.7; padding-left: 20px; border-left: 2px solid #38bdf8;">Non esiste una durata uguale per tutti. Dipende dalle condizioni iniziali, dagli obiettivi e dalla risposta al programma. La valutazione e il monitoraggio permettono di stabilire come proseguire e quando modificare il lavoro.</p>
+            </details>
+        </div>
+        <div style="text-align: center; margin-top: 45px;">
+            <p style="color: #cbd5e1; margin-bottom: 20px; font-size: 1.05rem;">Hai altre domande o vuoi capire se questo percorso è adatto a te o a un tuo familiare?</p>
+            <a href="https://wa.me/393703448214" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Contattami su WhatsApp</a>
+        </div>
+    </div>
+</div>
