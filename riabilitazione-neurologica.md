@@ -30,7 +30,7 @@ permalink: /fisioterapia-domicilio/neurologica/
                 </p>
             </div>
             <div class="about-image">
-                <img src="{{ site.baseurl }}/images/neurologia.jpg" alt="Riabilitazione neurologica a domicilio a Foligno" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                <img src="{{ site.baseurl }}/images/neurorehub.jpg" alt="Riabilitazione neurologica a domicilio a Foligno" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
         </div>
     </div>
@@ -135,7 +135,7 @@ permalink: /fisioterapia-domicilio/neurologica/
                 Valutare, scegliere, progredire: l'importanza del ragionamento clinico
             </h2>
             <p style="color: #334155; line-height: 1.8; font-size: 1.05rem; margin-bottom: 18px;">
-                Un trattamento neurologico efficace richiede continuo ragionamento clinico. Non basta rilevare che una persona fatica ad alzarsi o cammina con incertezza: occorre comprendere **quali elementi specifici** stanno ostacolando quel compito.
+                Un trattamento neurologico efficace richiede continuo ragionamento clinico. Non basta rilevare che una persona fatica ad alzarsi o cammina con incertezza: occorre comprendere quali elementi specifici stanno ostacolando quel compito.
             </p>
             <p style="color: #334155; line-height: 1.8; font-size: 1.05rem; margin-bottom: 18px;">
                 È un deficit di controllo del tronco? Una difficoltà nell'iniziazione del movimento? Una ridotta capacità di caricare sull'arto? O una combinazione di fattori coordinativi e d'ansia da caduta?
