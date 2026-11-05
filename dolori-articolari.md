@@ -40,7 +40,7 @@ permalink: /fisioterapia-domicilio/dolori-articolari/
             </div>
 
             <div class="about-image">
-                <img src="{{ site.baseurl }}/images/muoversi-dolore.jpg" alt="Fisioterapia per dolori articolari a domicilio a Foligno" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+                <img src="{{ site.baseurl }}/images/Fisioterapia.pipt.jpg" alt="Fisioterapia per dolori articolari a domicilio a Foligno" class="service-hero-img" style="border-radius: 12px; object-fit: cover; width: 100%; height: 100%; min-height: 300px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
             </div>
 
         </div>
