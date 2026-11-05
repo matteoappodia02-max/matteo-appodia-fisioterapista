@@ -86,7 +86,7 @@ permalink: /fisioterapia-domicilio/dolori-articolari/
             </h2>
 
             <p style="color: #1e293b; line-height: 1.8; font-size: 1.05rem; margin-bottom: 25px;">
-                Il dolore è un'esperienza complessa, influenzata dai tessuti fisici ma anche dal sistema nervoso, dalle preoccupazioni, dalle abitudini e dal contesto in cui viviamo. Per questo il mio approccio integra i principi della **Fisioterapia Psicologicamente Informata (PIPT)** e della **Cognitive Functional Therapy (CFT)**.
+                Il dolore è un'esperienza complessa, influenzata dai tessuti fisici ma anche dal sistema nervoso, dalle preoccupazioni, dalle abitudini e dal contesto in cui viviamo. Per questo il mio approccio integra i principi della Fisioterapia Psicologicamente Informata (PIPT) e della Cognitive Functional Therapy (CFT).
             </p>
 
             <div style="background: #ffffff; padding: 25px; border-radius: 12px; border-left: 4px solid var(--accent); box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px;">
