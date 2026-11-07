@@ -6,7 +6,7 @@ layout: default
     <div class="container hero-content">
         <span class="motto-verde">Tornare a muoversi, nonostante il dolore</span>
         <h1>Fisioterapia a Domicilio</h1>
-        <p>Mi chiamo Matteo Appodia e mi occupo di riabilitazione muscoloscheletrica, neurologica e post-operatoria nelle zone di Foligno e dintorni. Ogni trattamento basato su forti evidenze scientiche, nasce da una valutazione approfondita ed ha un obiettivo chiaro: farti tornare alle attività che per te contano nel modo più efficace e sicuro possibile.</p>
+        <p>Mi chiamo Matteo Appodia e mi occupo di riabilitazione muscoloscheletrica, neurologica e post-operatoria nelle zone di Foligno e dintorni. Ogni trattamento, basato su forti evidenze scientifiche, nasce da una valutazione approfondita ed ha un obiettivo chiaro: farti tornare alle attività che per te contano nel modo più efficace e sicuro possibile.</p>
         <div class="hero-buttons">
             <a href="tel:+393703448214" class="btn btn-primary"><i class="fas fa-phone"></i> Chiama Subito</a>
             <a href="https://wa.me/393703448214" class="btn btn-secondary" target="_blank"><i class="fab fa-whatsapp"></i> Scrivi su WhatsApp</a>
@@ -46,50 +46,101 @@ layout: default
     </div>
 </section>
 
-<!--VALORI DEL BRAND, inserire una sezione con immagine grafiche stilizzate di letteratura scientica -->
+<!-- SEZIONE 3: COME LAVORO (NUOVA) -->
+<section id="come-lavoro" class="section section-light" style="background-color: #f8fafc;">
+    <div class="container">
+        <div style="text-align: center; max-width: 800px; margin: 0 auto 50px auto;">
+            <span class="motto-verde" style="display: block; margin-bottom: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Il Mio Metodo</span>
+            <h2 style="color: var(--primary); font-size: 2.2rem; margin-bottom: 15px;">Credo nella fisioterapia basata sul movimento</h2>
+            <p style="color: #334155; font-size: 1.1rem; line-height: 1.6;">
+                Un approccio moderno e scientifico che aiuta a superare la problematica tramite un'accurata valutazione, l'esercizio terapeutico e l'ascolto attivo, senza l'utilizzo di terapie passive inefficaci.
+            </p>
+        </div>
 
-<!-- SEZIONE SERVIZI PRINCIPALI da implementare con grafiche stilizzate accanto a ciascun servizio -->
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; text-align: center;">
+            
+            <div class="value-card" style="padding: 20px;">
+                <img src="{{ '/images/evidenze.jpg' | relative_url }}" alt="Evidenze Scientifiche" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Approccio scientifico</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Le indicazioni e i trattamenti che ti fornirò sono interamente basati sulla letteratura clinica e scientifica più recente.</p>
+            </div>
+
+            <div class="value-card" style="padding: 20px;">
+                <img src="{{ '/images/ascolto.jpg' | relative_url }}" alt="Ascolto e Dialogo" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Ascolto e dialogo</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Discuteremo insieme gli obiettivi da raggiungere e costruiremo il percorso terapeutico personalizzato da intraprendere.</p>
+            </div>
+
+            <div class="value-card" style="padding: 20px;">
+                <img src="{{ '/images/esercizio.jpg' | relative_url }}" alt="Esercizio Terapeutico" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Esercizio terapeutico</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Il mio obiettivo sarà farti tornare a muovere senza paura, aiutandoti a ricostruire un corpo forte e resiliente.</p>
+            </div>
+
+            <div class="value-card" style="padding: 20px;">
+                <img src="{{ '/images/autogestione.jpg' | relative_url }}" alt="Autogestione" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Autogestione</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Ti fornirò tutti gli strumenti, pratici ed educativi, per gestire e superare la tua problematica in prima persona.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SEZIONE 4: SERVIZI -->
 <div class="section section-light" id="servizi">
     <div class="container">
         <h2 style="text-align: center; color: var(--primary); margin-bottom: 10px;">Percorsi di Fisioterapia a Domicilio</h2>
         <p class="section-subtitle" style="margin-bottom: 50px;">Interventi riabilitativi personalizzati a Foligno e dintorni, direttamente negli spazi della tua vita quotidiana.</p>
         
-        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px;">
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px;">
             
             <!-- Card 1: Anziani -->
-            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-content: space-between;">
-                <div>
-                    <h3 style="color: var(--primary); font-size: 1.3rem;">Anziani e Autonomia</h3>
-                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Prevenzione cadute, recupero della forza e della sicurezza nei movimenti di tutti i giorni.</p>
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
+                <img src="{{ '/images/Anzianiriab.jpg' | relative_url }}" alt="Anziani e Autonomia" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                    <div>
+                        <h3 style="color: var(--primary); font-size: 1.3rem;">Anziani e Autonomia</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Prevenzione cadute, recupero della forza e della sicurezza nei movimenti di tutti i giorni.</p>
+                    </div>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" class="read-more">Scopri il percorso →</a>
                 </div>
-                <a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" class="read-more">Scopri il percorso →</a>
             </div>
 
             <!-- Card 2: Dolori Articolari -->
-            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-space-between;">
-                <div>
-                    <h3 style="color: var(--primary); font-size: 1.3rem;">Dolori Articolari</h3>
-                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Trattamento per mal di schiena, ginocchio, anca e spalla senza paura di muoversi.</p>
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
+                <img src="{{ '/images/Doloreartic.lare.jpg' | relative_url }}" alt="Dolori Articolari" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                    <div>
+                        <h3 style="color: var(--primary); font-size: 1.3rem;">Dolori Articolari</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Trattamento per mal di schiena, ginocchio, anca e spalla senza paura di muoversi.</p>
+                    </div>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" class="read-more">Scopri il percorso →</a>
                 </div>
-                <a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" class="read-more">Scopri il percorso →</a>
             </div>
 
             <!-- Card 3: Neurologia -->
-            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-space-between;">
-                <div>
-                    <h3 style="color: var(--primary); font-size: 1.3rem;">Riabilitazione Neurologica</h3>
-                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Interventi specifici per Malattia di Parkinson, esiti di Ictus e rieducazione del passo.</p>
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
+                <img src="{{ '/images/Neuroriabilitazione.jpg' | relative_url }}" alt="Riabilitazione Neurologica" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                    <div>
+                        <h3 style="color: var(--primary); font-size: 1.3rem;">Riabilitazione Neurologica</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Interventi specifici per Malattia di Parkinson, esiti di Ictus e rieducazione del passo.</p>
+                    </div>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" class="read-more">Scopri il percorso →</a>
                 </div>
-                <a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" class="read-more">Scopri il percorso →</a>
             </div>
 
             <!-- Card 4: Post-Chirurgica -->
-            <div class="card" style="border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-space-between;">
-                <div>
-                    <h3 style="color: var(--primary); font-size: 1.3rem;">Post-Chirurgica</h3>
-                    <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Assistenza riabilitativa immediata per protesi d'anca, ginocchio e recupero da fratture.</p>
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
+                <img src="{{ '/images/POSTchirurgia.jpg' | relative_url }}" alt="Post-Chirurgica" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                    <div>
+                        <h3 style="color: var(--primary); font-size: 1.3rem;">Post-Chirurgica</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Assistenza riabilitativa immediata per protesi d'anca, ginocchio e recupero da fratture.</p>
+                    </div>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" class="read-more">Scopri il percorso →</a>
                 </div>
-                <a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" class="read-more">Scopri il percorso →</a>
             </div>
 
         </div>
@@ -101,7 +152,7 @@ layout: default
     </div>
 </div>
 
-<!-- SEZIONE 4: PROGETTO HCP INPS -->
+<!-- SEZIONE 5: PROGETTO HCP INPS -->
 <section id="hcp" class="section section-dark hcp-section-dark">
     <div class="container hcp-box">
         <h2>Progetto HCP INPS</h2>
@@ -110,7 +161,7 @@ layout: default
     </div>
 </section>
 
-<!-- SEZIONE 5: BLOG -->
+<!-- SEZIONE 6: BLOG -->
 <section id="blog" class="section section-light">
     <div class="container">
         <h2>Blog & Approfondimenti</h2>
@@ -134,7 +185,62 @@ layout: default
     </div>
 </section>
 
-<!-- SEZIONE 6: CONTATTI -->
+<!-- SEZIONE 7: RECENSIONI (NUOVA) -->
+<section id="recensioni" class="section section-light" style="background-color: #f1f5f9;">
+    <div class="container">
+        
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h2 style="color: var(--primary); font-size: 2.2rem; margin-bottom: 10px;">Cosa dicono i miei pazienti</h2>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+                <div style="color: #f59e0b; font-size: 1.8rem; letter-spacing: 2px;">★★★★★</div>
+                <span style="font-size: 1.3rem; font-weight: 700; color: #1e293b;">5.0 / 5.0</span>
+            </div>
+            <p style="color: #64748b; font-size: 1.1rem; font-weight: 500;">Valutazione eccellente su Google Business Profile</p>
+        </div>
+
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+            
+            <!-- Recensione 1 -->
+            <div style="background: #ffffff; padding: 35px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; border-top: 4px solid var(--accent);">
+                <i class="fas fa-quote-right" style="position: absolute; top: 25px; right: 25px; font-size: 2.5rem; color: #f1f5f9;"></i>
+                <div style="color: #f59e0b; margin-bottom: 15px; font-size: 1.1rem;">★★★★★</div>
+                <p style="color: #334155; font-size: 1.05rem; line-height: 1.7; font-style: italic; margin-bottom: 25px; position: relative; z-index: 1;">
+                    "Da circa due mesi sono seguita da Matteo per cure fisioterapiche prescritte dal neurologo. In particolare esercizi relativi alla motricità degli arti superiori e inferiori, postura, movimenti fissi e esercizi per l'equilibrio. Ho scoperto in Matteo un eccellente professionista molto preparato, attento, scrupoloso, empatico e sempre disponibile al dialogo."
+                </p>
+                <div style="border-top: 1px solid #e2e8f0; padding-top: 15px;">
+                    <p style="font-weight: 600; color: var(--primary); margin: 0; font-size: 1rem;">Paziente Riabilitazione Neurologica</p>
+                </div>
+            </div>
+
+            <!-- Recensione 2 -->
+            <div style="background: #ffffff; padding: 35px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; border-top: 4px solid var(--accent);">
+                <i class="fas fa-quote-right" style="position: absolute; top: 25px; right: 25px; font-size: 2.5rem; color: #f1f5f9;"></i>
+                <div style="color: #f59e0b; margin-bottom: 15px; font-size: 1.1rem;">★★★★★</div>
+                <p style="color: #334155; font-size: 1.05rem; line-height: 1.7; font-style: italic; margin-bottom: 25px; position: relative; z-index: 1;">
+                    "Sono arrivata dal fisioterapista con una miriade di paranoie e dolori alle anche. Anni fa mi avevano detto che mi dovevo operare, quindi mi ero un po' fissata. Mi ha seguito Matteo per circa 5 mesi. Ottimo sia come fisioterapista che come persona. Mi ha fatto imparare che se i muscoli sono ben allenati supportano meglio il nostro corpo anche se ci sono alcune carenze. E mi ha fatto credere più in me stessa che non è poco."
+                </p>
+                <div style="border-top: 1px solid #e2e8f0; padding-top: 15px;">
+                    <p style="font-weight: 600; color: var(--primary); margin: 0; font-size: 1rem;">Paziente Dolori Articolari</p>
+                </div>
+            </div>
+
+            <!-- Recensione 3 -->
+            <div style="background: #ffffff; padding: 35px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; border-top: 4px solid var(--accent);">
+                <i class="fas fa-quote-right" style="position: absolute; top: 25px; right: 25px; font-size: 2.5rem; color: #f1f5f9;"></i>
+                <div style="color: #f59e0b; margin-bottom: 15px; font-size: 1.1rem;">★★★★★</div>
+                <p style="color: #334155; font-size: 1.05rem; line-height: 1.7; font-style: italic; margin-bottom: 25px; position: relative; z-index: 1;">
+                    "Ho effettuato sedute riabilitative con ottimi risultati. L'operatore è stato professionale e convincente, lo consiglio alle persone diversamente giovani come me."
+                </p>
+                <div style="border-top: 1px solid #e2e8f0; padding-top: 15px;">
+                    <p style="font-weight: 600; color: var(--primary); margin: 0; font-size: 1rem;">Paziente Riabilitazione Funzionale</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SEZIONE 8: CONTATTI -->
 <section id="contatti" class="section section-dark">
     <div class="container contatti-content">
         <h2>Contatti</h2>
@@ -156,4 +262,3 @@ layout: default
         </div>
     </div>
 </section>
-
