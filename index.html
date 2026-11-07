@@ -46,11 +46,10 @@ layout: default
     </div>
 </section>
 
-<!-- SEZIONE 3: IL MIO APPROCCIO (GRIGLIA 2x2 QUADRATA) -->
+<!-- SEZIONE 3: IL MIO APPROCCIO (IN 1 RIGA) -->
 <section id="come-lavoro" class="section section-light" style="background-color: #f8fafc;">
     <div class="container">
         
-        <!-- Intestazione grafica per l'approccio -->
         <div style="text-align: center; max-width: 800px; margin: 0 auto 50px auto;">
             <span style="display: inline-block; background-color: rgba(56, 189, 248, 0.15); color: var(--primary); padding: 8px 24px; border-radius: 30px; margin-bottom: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; font-size: 0.95rem; border: 1px solid rgba(56, 189, 248, 0.3);">
                 Il Mio Approccio
@@ -61,97 +60,96 @@ layout: default
             </p>
         </div>
 
-        <!-- Griglia 2x2 centrata -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; text-align: center; max-width: 850px; margin: 0 auto;">
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; text-align: center;">
             
-            <div class="value-card" style="padding: 25px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                <img src="{{ '/images/evidenze.jpg' | relative_url }}" alt="Evidenze Scientifiche" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
-                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Approccio scientifico</h3>
-                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Le indicazioni e i trattamenti che ti fornirò sono interamente basati sulla letteratura clinica e scientifica più recente.</p>
+            <div class="value-card" style="padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <img src="{{ '/images/evidenze.jpg' | relative_url }}" alt="Evidenze Scientifiche" style="width: 60px; height: 60px; margin-bottom: 15px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 10px;">Approccio scientifico</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Le indicazioni e i trattamenti forniti sono interamente basati sulla letteratura clinica più recente.</p>
             </div>
 
-            <div class="value-card" style="padding: 25px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                <img src="{{ '/images/ascolto.jpg' | relative_url }}" alt="Ascolto e Dialogo" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
-                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Ascolto e dialogo</h3>
-                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Discuteremo insieme gli obiettivi da raggiungere e costruiremo il percorso terapeutico personalizzato da intraprendere.</p>
+            <div class="value-card" style="padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <img src="{{ '/images/ascolto.jpg' | relative_url }}" alt="Ascolto e Dialogo" style="width: 60px; height: 60px; margin-bottom: 15px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 10px;">Ascolto attivo</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Discuteremo insieme gli obiettivi da raggiungere per costruire il miglior percorso personalizzato.</p>
             </div>
 
-            <div class="value-card" style="padding: 25px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                <img src="{{ '/images/esercizio.jpg' | relative_url }}" alt="Esercizio Terapeutico" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
-                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Esercizio terapeutico</h3>
-                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Il mio obiettivo sarà farti tornare a muovere senza paura, aiutandoti a ricostruire un corpo forte e resiliente.</p>
+            <div class="value-card" style="padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <img src="{{ '/images/esercizio.jpg' | relative_url }}" alt="Esercizio Terapeutico" style="width: 60px; height: 60px; margin-bottom: 15px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 10px;">Esercizio mirato</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">L'obiettivo è farti tornare a muovere senza paura, ricostruendo un corpo forte e resiliente.</p>
             </div>
 
-            <div class="value-card" style="padding: 25px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                <img src="{{ '/images/autogestione.jpg' | relative_url }}" alt="Autogestione" style="width: 70px; height: 70px; margin-bottom: 20px; object-fit: contain;">
-                <h3 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 12px;">Autogestione</h3>
-                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Ti fornirò tutti gli strumenti, pratici ed educativi, per gestire e superare la tua problematica in prima persona.</p>
+            <div class="value-card" style="padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <img src="{{ '/images/autogestione.jpg' | relative_url }}" alt="Autogestione" style="width: 60px; height: 60px; margin-bottom: 15px; object-fit: contain;">
+                <h3 style="color: var(--primary); font-size: 1.25rem; margin-bottom: 10px;">Autogestione</h3>
+                <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">Ti fornirò strumenti pratici ed educativi per gestire e superare la problematica in prima persona.</p>
             </div>
 
         </div>
     </div>
 </section>
 
-<!-- SEZIONE 4: SERVIZI -->
+<!-- SEZIONE 4: SERVIZI (GRIGLIA QUADRATA 2x2) -->
 <div class="section section-light" id="servizi">
     <div class="container">
         <h2 style="text-align: center; color: var(--primary); margin-bottom: 10px;">Percorsi di Fisioterapia a Domicilio</h2>
         <p class="section-subtitle" style="margin-bottom: 50px;">Interventi riabilitativi personalizzati a Foligno e dintorni, direttamente negli spazi della tua vita quotidiana.</p>
         
-        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 35px; max-width: 900px; margin: 0 auto;">
             
             <!-- Card 1: Anziani -->
-            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
-                <img src="{{ '/images/Anzianiriab.jpg' | relative_url }}" alt="Anziani e Autonomia" style="width: 100%; height: 200px; object-fit: cover;">
-                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); background: #fff;">
+                <img src="{{ '/images/Anzianiriab.jpg' | relative_url }}" alt="Anziani e Autonomia" style="width: 100%; height: 230px; object-fit: cover;">
+                <div style="padding: 30px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                     <div>
-                        <h3 style="color: var(--primary); font-size: 1.3rem;">Anziani e Autonomia</h3>
-                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Prevenzione cadute, recupero della forza e della sicurezza nei movimenti di tutti i giorni.</p>
+                        <h3 style="color: var(--primary); font-size: 1.4rem; margin-bottom: 10px;">Anziani e Autonomia</h3>
+                        <p style="font-size: 1rem; color: var(--text-light); margin-bottom: 25px; line-height: 1.6;">Prevenzione cadute, recupero della forza e della sicurezza nei movimenti di tutti i giorni.</p>
                     </div>
-                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" class="read-more">Scopri il percorso →</a>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" class="read-more" style="font-weight: 600;">Scopri il percorso →</a>
                 </div>
             </div>
 
             <!-- Card 2: Dolori Articolari -->
-            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
-                <img src="{{ '/images/Doloreartic.lare.jpg' | relative_url }}" alt="Dolori Articolari" style="width: 100%; height: 200px; object-fit: cover;">
-                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); background: #fff;">
+                <img src="{{ '/images/Doloreartic.lare.jpg' | relative_url }}" alt="Dolori Articolari" style="width: 100%; height: 230px; object-fit: cover;">
+                <div style="padding: 30px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                     <div>
-                        <h3 style="color: var(--primary); font-size: 1.3rem;">Dolori Articolari</h3>
-                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Trattamento per mal di schiena, ginocchio, anca e spalla senza paura di muoversi.</p>
+                        <h3 style="color: var(--primary); font-size: 1.4rem; margin-bottom: 10px;">Dolori Articolari</h3>
+                        <p style="font-size: 1rem; color: var(--text-light); margin-bottom: 25px; line-height: 1.6;">Trattamento per mal di schiena, ginocchio, anca e spalla senza paura di muoversi.</p>
                     </div>
-                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" class="read-more">Scopri il percorso →</a>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" class="read-more" style="font-weight: 600;">Scopri il percorso →</a>
                 </div>
             </div>
 
             <!-- Card 3: Neurologia -->
-            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
-                <img src="{{ '/images/Neuroriabilitazione.jpg' | relative_url }}" alt="Riabilitazione Neurologica" style="width: 100%; height: 200px; object-fit: cover;">
-                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); background: #fff;">
+                <img src="{{ '/images/Neuroriabilitazione.jpg' | relative_url }}" alt="Riabilitazione Neurologica" style="width: 100%; height: 230px; object-fit: cover;">
+                <div style="padding: 30px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                     <div>
-                        <h3 style="color: var(--primary); font-size: 1.3rem;">Riabilitazione Neurologica</h3>
-                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Interventi specifici per Malattia di Parkinson, esiti di Ictus e rieducazione del passo.</p>
+                        <h3 style="color: var(--primary); font-size: 1.4rem; margin-bottom: 10px;">Riabilitazione Neurologica</h3>
+                        <p style="font-size: 1rem; color: var(--text-light); margin-bottom: 25px; line-height: 1.6;">Interventi specifici per Malattia di Parkinson, esiti di Ictus e rieducazione del passo.</p>
                     </div>
-                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" class="read-more">Scopri il percorso →</a>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" class="read-more" style="font-weight: 600;">Scopri il percorso →</a>
                 </div>
             </div>
 
             <!-- Card 4: Post-Chirurgica -->
-            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: #fff;">
-                <img src="{{ '/images/POSTchirurgia.jpg' | relative_url }}" alt="Post-Chirurgica" style="width: 100%; height: 200px; object-fit: cover;">
-                <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+            <div class="card" style="border-top: 4px solid var(--accent); padding: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); background: #fff;">
+                <img src="{{ '/images/POSTchirurgia.jpg' | relative_url }}" alt="Post-Chirurgica" style="width: 100%; height: 230px; object-fit: cover;">
+                <div style="padding: 30px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                     <div>
-                        <h3 style="color: var(--primary); font-size: 1.3rem;">Post-Chirurgica</h3>
-                        <p style="font-size: 0.95rem; color: var(--text-light); margin: 15px 0 20px 0;">Assistenza riabilitativa immediata per protesi d'anca, ginocchio e recupero da fratture.</p>
+                        <h3 style="color: var(--primary); font-size: 1.4rem; margin-bottom: 10px;">Post-Chirurgica</h3>
+                        <p style="font-size: 1rem; color: var(--text-light); margin-bottom: 25px; line-height: 1.6;">Assistenza riabilitativa immediata per protesi d'anca, ginocchio e recupero da fratture.</p>
                     </div>
-                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" class="read-more">Scopri il percorso →</a>
+                    <a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" class="read-more" style="font-weight: 600;">Scopri il percorso →</a>
                 </div>
             </div>
 
         </div>
 
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="{{ site.baseurl }}/fisioterapia-a-domicilio/" class="btn btn-secondary">Vedi tutti i dettagli dei servizi a domicilio</a>
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="{{ site.baseurl }}/fisioterapia-a-domicilio/" class="btn btn-secondary" style="font-size: 1.1rem; padding: 15px 35px;">Vedi tutti i dettagli dei servizi a domicilio</a>
         </div>
     </div>
 </div>
@@ -171,7 +169,6 @@ layout: default
         <h2 style="text-align: center; color: var(--primary); margin-bottom: 40px;">Blog & Approfondimenti</h2>
         
         <div class="grid">
-            <!-- NOTA: "limit: 3" fa apparire SOLO gli ultimi 3 articoli -->
             {% for post in site.posts limit: 3 %}
             <div class="blog-card">
                 {% if post.image %}
@@ -189,7 +186,6 @@ layout: default
             {% endfor %}
         </div>
         
-        <!-- Pulsante per la pagina completa del blog -->
         <div style="text-align: center; margin-top: 40px;">
             <a href="{{ site.baseurl }}/blog/" class="btn btn-secondary">Leggi tutti gli articoli del Blog</a>
         </div>
@@ -197,7 +193,7 @@ layout: default
     </div>
 </section>
 
-<!-- SEZIONE 7: RECENSIONI (CON NOMI) -->
+<!-- SEZIONE 7: RECENSIONI -->
 <section id="recensioni" class="section section-light" style="background-color: #f1f5f9;">
     <div class="container">
         
@@ -212,7 +208,6 @@ layout: default
 
         <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
             
-            <!-- Recensione 1 (Gabriella) -->
             <div style="background: #ffffff; padding: 35px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-content: space-between;">
                 <div>
                     <i class="fas fa-quote-right" style="position: absolute; top: 25px; right: 25px; font-size: 2.5rem; color: #f1f5f9;"></i>
@@ -230,7 +225,6 @@ layout: default
                 </div>
             </div>
 
-            <!-- Recensione 2 (Cristina) -->
             <div style="background: #ffffff; padding: 35px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-content: space-between;">
                 <div>
                     <i class="fas fa-quote-right" style="position: absolute; top: 25px; right: 25px; font-size: 2.5rem; color: #f1f5f9;"></i>
@@ -248,7 +242,6 @@ layout: default
                 </div>
             </div>
 
-            <!-- Recensione 3 (Valtiera) -->
             <div style="background: #ffffff; padding: 35px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; border-top: 4px solid var(--accent); display: flex; flex-direction: column; justify-content: space-between;">
                 <div>
                     <i class="fas fa-quote-right" style="position: absolute; top: 25px; right: 25px; font-size: 2.5rem; color: #f1f5f9;"></i>
