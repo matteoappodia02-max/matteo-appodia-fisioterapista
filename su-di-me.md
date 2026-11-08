@@ -10,8 +10,7 @@ permalink: /su-di-me/
     <div class="container">
         <h1 style="color: var(--primary); font-size: 2.5rem; text-align: center; margin-bottom: 15px;">Matteo Appodia</h1>
         <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 40px auto; text-align: center; color: #1e293b; font-size: 1.2rem;">
-            Fisioterapista specializzato in riabilitazione domiciliare, esercizio terapeutico ed educazione al dolore a Foligno e dintorni.
-        </p>
+            Fisioterapista specializzato in riabilitazione domiciliare a Foligno e dintorni, tramite un approccio attivo ed aggiornato. </p>
         <div class="about-grid" style="margin-bottom: 50px;">
             <div class="about-text">
                 <h2 style="color: var(--accent); font-size: 1.8rem; margin-bottom: 15px;">Il movimento come strumento di libertà</h2>
@@ -35,7 +34,7 @@ permalink: /su-di-me/
         <div style="max-width: 850px; margin: 0 auto;">
             <h2 style="color: var(--primary); font-size: 1.9rem; text-align: center; margin-bottom: 25px;">Formazione e Percorso Scientifico</h2>
             <p style="color: #334155; line-height: 1.8; font-size: 1.05rem; margin-bottom: 20px;">
-                Ho conseguito la laurea in Fisioterapia presso la sede di Foligno dell'Università degli Studi di Perugia con una votazione di 106/110. Fin dall'inizio del mio percorso formativo, ho orientato il mio interesse verso la gestione del dolore muscoloscheletrico (muscolare, articolare), la neuro-riabilitazione e la fisioterapia per l'anziano.
+                Ho conseguito la laurea in Fisioterapia presso la sede di Foligno dell'Università degli Studi di Perugia con una votazione di 106/110. Fin dall'inizio del mio percorso formativo, ho orientato il mio interesse verso la gestione del dolore muscoloscheletrico (muscolare, articolare), la neuro-riabilitazione, la fisioterapia per l'anziano e il recupero post intervento chirurgico.
             </p>
             <p style="color: #334155; line-height: 1.8; font-size: 1.05rem; margin-bottom: 20px;">
                 Tutte queste diverse sfere vengono riunite nel mio modo di fare e promuovere la riabilitazione: tramite l'esercizio attivo e mirata ad aumentare gradualmente sempre più l'autonomia della persona.
