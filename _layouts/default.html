@@ -16,7 +16,7 @@
     <title>{% if page.title %}{{ page.title }} • Dott. Matteo Appodia Fisioterapista{% else %}Fisioterapia a Domicilio Foligno e dintorni • Dott. Matteo Appodia{% endif %}</title>
     
     <!-- META DESCRIPTION PER GOOGLE -->
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Fisioterapia a domicilio a Foligno, Spoleto, Assisi e Bastia Umbra. Riabilitazione muscoloscheletrica, neurologica e post-operatoria basata sulle evidenze. Servizio HCP INPS.{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Fisioterapia a domicilio a Foligno, Trevi, Spello, Assisi, Campello, Bastia Umbra. Riabilitazione muscoloscheletrica, neurologica e post-operatoria basata sulle evidenze. Servizio HCP INPS.{% endif %}">
     <meta name="author" content="Matteo Appodia">
     <meta name="robots" content="index, follow">
     
@@ -60,11 +60,14 @@
         { "@type": "City", "name": "Trevi" },
         { "@type": "City", "name": "Spello" },
         { "@type": "City", "name": "Bastia Umbra" }
+        { "@type": "City", "name": "Campello" },
+        { "@type": "City", "name": "Assisi" }
       ],
       "medicalSpecialty": [
         "Musculoskeletal",
         "Neurologic",
-        "Physiotherapy"
+        "Physiotherapy",
+        "Elderly"
       ],
       "url": "{{ '/' | absolute_url }}"
     }
@@ -97,7 +100,7 @@
                 <a href="{{ site.baseurl }}/#about">Su di me</a>
                 <a href="{{ site.baseurl }}/fisioterapia-a-domicilio/">Servizi</a>
                 <!--<a href="{{ site.baseurl }}/dolore-persistente/">Dolore Persistente</a>-->
-                <a href="{{ site.baseurl }}/#blog">Blog</a>
+                <a href="{{ site.baseurl }}/blog/">Blog</a>
                 <a href="{{ site.baseurl }}/#contatti" class="btn-nav">Contattami</a>
           </nav>
         </div>
