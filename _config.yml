@@ -1,3 +1,5 @@
 title: "Matteo Appodia Fisioterapista"
-description: "Fisioterapia a Domicilio a Foligno, Spoleto, Assisi e Bastia Umbra"
+description: "Fisioterapia a Domicilio a Foligno, Spello, Trevi, Campello, Spoleto, Assisi, Bevagna, Bastia Umbra"
+plugins:
+  - jekyll-sitemap
 
