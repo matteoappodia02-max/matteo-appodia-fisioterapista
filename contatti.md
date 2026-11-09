@@ -64,8 +64,8 @@ permalink: /contatti/
                         <input type="tel" id="telefono" name="Telefono" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 1rem; font-family: inherit;">
                     </div>
                     <div>
-                        <label for="email" style="display: block; font-weight: 600; color: #334155; margin-bottom: 8px; font-size: 0.9rem;">Email</label>
-                        <input type="email" id="email" name="Email" style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 1rem; font-family: inherit;">
+                        <label for="email" style="display: block; font-weight: 600; color: #334155; margin-bottom: 8px; font-size: 0.9rem;">Email *</label>
+                        <input type="email" id="email" name="Email" required style="width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 1rem; font-family: inherit;">
                     </div>
                     <div>
                         <label for="messaggio" style="display: block; font-weight: 600; color: #334155; margin-bottom: 8px; font-size: 0.9rem;">Come posso aiutarti? *</label>
