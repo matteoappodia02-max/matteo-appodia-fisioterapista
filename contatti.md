@@ -48,7 +48,7 @@ permalink: /contatti/
             <div style="background: #ffffff; padding: 35px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
                 <h2 style="color: var(--primary); font-size: 1.6rem; margin-bottom: 25px;">Oppure scrivimi i dettagli</h2>     
                 <!-- Sostituisci INSERISCI_QUI_IL_TUO_LINK_FORMSPREE con il link reale che creerai su formspree.io -->
-                <form action="INSERISCI_QUI_IL_TUO_LINK_FORMSPREE" method="POST" style="display: flex; flex-direction: column; gap: 20px;">   
+                <form action="https://formspree.io/f/mdeeqogb" method="POST" style="display: flex; flex-direction: column; gap: 20px;">   
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
                         <div>
                             <label for="nome" style="display: block; font-weight: 600; color: #334155; margin-bottom: 8px; font-size: 0.9rem;">Nome *</label>
