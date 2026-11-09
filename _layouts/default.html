@@ -11,6 +11,21 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- META TAG OPEN GRAPH (ANTEPRIMA WHATSAPP E SOCIAL) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: 'Fisioterapia a domicilio a Foligno e dintorni. Riabilitazione muscoloscheletrica, neurologica, post-operatoria e per anziani basata su evidenze scientifiche.' }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/images/matteo-appodia.jpg' | absolute_url }}">
+    <meta property="og:site_name" content="Matteo Appodia Fisioterapista">
+    <meta property="og:locale" content="it_IT">
+    
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:description" content="{{ page.description | default: 'Fisioterapia a domicilio a Foligno e dintorni. Esercizio terapeutico ed educazione al dolore.' }}">
+    <meta name="twitter:image" content="{{ '/images/matteo-appodia.jpg' | absolute_url }}">
     
     <!-- TITOLO SEO DINAMICO -->
     <title>{% if page.title %}{{ page.title }} • Dott. Matteo Appodia Fisioterapista{% else %}Fisioterapia a Domicilio Foligno e dintorni • Dott. Matteo Appodia{% endif %}</title>
