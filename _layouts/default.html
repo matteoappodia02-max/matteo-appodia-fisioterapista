@@ -104,8 +104,56 @@
     src="https://www.facebook.com/tr?id=28751288394535937&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-</head>
-<body>
+    
+        <!-- BARRA CONTATTO FISSA SU MOBILE -->
+    <div class="mobile-sticky-bar">
+        <a href="tel:+393703448214" class="sticky-btn btn-call">
+            <i class="fas fa-phone-alt"></i> Chiama ora
+        </a>
+        <a href="https://wa.me/393703448214" target="_blank" rel="noopener noreferrer" class="sticky-btn btn-wa">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+    
+    <style>
+    .mobile-sticky-bar {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 10px 15px;
+        box-shadow: 0 -3px 12px rgba(0,0,0,0.15);
+        z-index: 99999;
+        gap: 10px;
+    }
+    
+    .sticky-btn {
+        flex: 1;
+        text-align: center;
+        padding: 12px 0;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #ffffff !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .btn-call { background-color: var(--primary, #0f172a); }
+    .btn-wa { background-color: #25D366; }
+    
+    @media (max-width: 768px) {
+        .mobile-sticky-bar { display: flex; }
+        body { padding-bottom: 65px; }
+    }
+    </style>
+    </head>
+    <body>
 
     <!-- Header / Navigazione Principale -->
    <header class="site-header" style="background-color: var(--primary); padding: 15px 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
