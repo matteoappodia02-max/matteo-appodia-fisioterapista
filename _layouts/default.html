@@ -244,12 +244,41 @@ document.addEventListener("DOMContentLoaded", function() {
     <!-- Contenuto della pagina o dell'articolo -->
     {{ content }}
 
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 Matteo Appodia • Fisioterapia a Domicilio. P.IVA: 03975090543. Tutti i diritti riservati.</p>
+   <footer style="background-color: #0f172a; color: #cbd5e1; padding: 50px 0 20px 0; font-size: 0.95rem;">
+    <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; margin-bottom: 40px;">
+        
+        <!-- Colonna 1: Info Studio -->
+        <div>
+            <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Dott. Matteo Appodia</h3>
+            <p style="line-height: 1.6; margin-bottom: 10px;">Fisioterapista iscritto all'Albo. Servizio di riabilitazione e fisioterapia a domicilio basato su evidenze scientifiche ed esercizio attivo.</p>
+            <p style="margin: 0;"><strong>P.IVA:</strong> 03975090543</p>
         </div>
-    </footer>
+
+        <!-- Colonna 2: Servizi Domiciliari -->
+        <div>
+            <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Percorsi Riabilitativi</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" style="color: #cbd5e1; text-decoration: none;">Anziani e Autonomia</a></li>
+                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" style="color: #cbd5e1; text-decoration: none;">Gestione Dolori Articolari</a></li>
+                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" style="color: #cbd5e1; text-decoration: none;">Riabilitazione Neurologica</a></li>
+                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" style="color: #cbd5e1; text-decoration: none;">Riabilitazione Post-Chirurgica</a></li>
+            </ul>
+        </div>
+
+        <!-- Colonna 3: Zone Servite & Contatti -->
+        <div>
+            <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Zone di Copertura</h3>
+            <p style="line-height: 1.6; margin-bottom: 10px;">Foligno, Spello, Trevi, Bevagna, Montefalco, Assisi, Bastia Umbra, Spoleto.</p>
+            <p style="margin-bottom: 5px;"><i class="fas fa-phone" style="color: var(--accent);"></i> <a href="tel:+393703448214" style="color: #ffffff; text-decoration: none;">370 344 8214</a></p>
+            <p style="margin: 0;"><i class="fas fa-envelope" style="color: var(--accent);"></i> <a href="mailto:matteo.appodia02@gmail.com" style="color: #ffffff; text-decoration: none;">matteo.appodia02@gmail.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="container" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; font-size: 0.85rem; color: #94a3b8;">
+        <p style="margin: 0;">&copy; 2026 Dott. Matteo Appodia • Tutti i diritti riservati | <a href="{{ site.baseurl }}/privacy-policy/" style="color: #94a3b8; text-decoration: underline;">Privacy & Cookie Policy</a></p>
+    </div>
+</footer>
 
 </body>
 </html>
