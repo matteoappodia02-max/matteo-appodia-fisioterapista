@@ -57,38 +57,41 @@
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- DATI STRUTTURATI GOOGLE SCHEMA.ORG -->
+  <!-- DATI STRUTTURATI GOOGLE SCHEMA.ORG -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Physiotherapist",
-      "name": "Matteo Appodia Fisioterapia a Domicilio",
-      "image": "{{ '/images/matteo-appodia.jpg' | absolute_url }}",
-      "telephone": "+393703448214",
-      "email": "matteo.appodia02@gmail.com",
-      "vatID": "03975090543",
-      "priceRange": "€€",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Foligno",
-        "addressRegion": "PG",
-        "addressCountry": "IT"
-      },
+        {
+          "@context": "https://schema.org",
+          "@type": "Physiotherapist",
+          "name": "Matteo Appodia Fisioterapia a Domicilio",
+          "image": "{{ '/images/matteo-appodia.jpg' | absolute_url }}",
+          "telephone": "+393703448214",
+          "email": "matteo.appodia02@gmail.com",
+          "vatID": "03975090543",
+          "priceRange": "€€",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Foligno",
+            "addressRegion": "PG",
+            "addressCountry": "IT"
+        },
       "areaServed": [
-        { "@type": "City", "name": "Foligno" },
-        { "@type": "City", "name": "Trevi" },
-        { "@type": "City", "name": "Spello" },
-        { "@type": "City", "name": "Bastia Umbra" },
-        { "@type": "City", "name": "Campello" },
-        { "@type": "City", "name": "Assisi" }
-      ],
-      "medicalSpecialty": [
-        "Musculoskeletal",
-        "Neurologic",
-        "Physiotherapy",
-        "Elderly"
-      ],
-      "url": "{{ '/' | absolute_url }}"
+                        { "@type": "City", "name": "Foligno" },
+                        { "@type": "City", "name": "Spello" },
+                        { "@type": "City", "name": "Trevi" },
+                        { "@type": "City", "name": "Bevagna" },
+                        { "@type": "City", "name": "Montefalco" },
+                        { "@type": "City", "name": "Bastia Umbra" },
+                        { "@type": "City", "name": "Campello" },
+                        { "@type": "City", "name": "Assisi" },
+                        { "@type": "City", "name": "Spoleto" }
+                      ],
+     "medicalSpecialty": [
+            "Musculoskeletal",
+            "Neurologic",
+            "Physiotherapy",
+            "Elderly"
+        ],
+    "url": "{{ '/' | absolute_url }}"
     }
     </script>
 <!-- Meta Pixel Code -->
