@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<!-- Google tag (gtag.js) -->
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+    
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4CKC4P220"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -58,22 +63,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
   <!-- DATI STRUTTURATI GOOGLE SCHEMA.ORG -->
-    <script type="application/ld+json">
+    <script type="application/ld+json"> 
         {
-          "@context": "https://schema.org",
-          "@type": "Physiotherapist",
-          "name": "Matteo Appodia Fisioterapia a Domicilio",
-          "image": "{{ '/images/matteo-appodia.jpg' | absolute_url }}",
-          "telephone": "+393703448214",
-          "email": "matteo.appodia02@gmail.com",
-          "vatID": "03975090543",
-          "priceRange": "€€",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Foligno",
-            "addressRegion": "PG",
-            "addressCountry": "IT"
-        },
+                                          "@context": "https://schema.org",
+                                          "@type": "Physiotherapist",
+                                          "name": "Matteo Appodia Fisioterapia a Domicilio",
+                                          "image": "{{ '/images/matteo-appodia.jpg' | absolute_url }}",
+                                          "telephone": "+393703448214",
+                                          "email": "matteo.appodia02@gmail.com",
+                                          "vatID": "03975090543",
+                                          "priceRange": "€€",
+                                          "address": {
+                                            "@type": "PostalAddress",
+                                            "addressLocality": "Foligno",
+                                            "addressRegion": "PG",
+                                            "addressCountry": "IT"
+                                        },
       "areaServed": [
                         { "@type": "City", "name": "Foligno" },
                         { "@type": "City", "name": "Spello" },
@@ -250,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <!-- Contenuto della pagina o dell'articolo -->
     {{ content }}
-
+        
    <footer style="background-color: #0f172a; color: #cbd5e1; padding: 50px 0 20px 0; font-size: 0.95rem;">
     <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; margin-bottom: 40px;">
         
