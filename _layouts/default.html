@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4CKC4P220"></script>
     <script>
@@ -14,92 +12,91 @@
       gtag('js', new Date());
       gtag('config', 'G-G4CKC4P220');
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- META TAG OPEN GRAPH (ANTEPRIMA WHATSAPP E SOCIAL) -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ page.title | default: site.title }}">
-    <meta property="og:description" content="{{ page.description | default: 'Fisioterapia a domicilio a Foligno e dintorni. Riabilitazione muscoloscheletrica, neurologica, post-operatoria e per anziani basata su evidenze scientifiche.' }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ '/images/matteo-appodia.jpg' | absolute_url }}">
-    <meta property="og:site_name" content="Matteo Appodia Fisioterapista">
-    <meta property="og:locale" content="it_IT">
-    
-    <!-- TWITTER CARD -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
-    <meta name="twitter:description" content="{{ page.description | default: 'Fisioterapia a domicilio a Foligno e dintorni. Esercizio terapeutico ed educazione al dolore.' }}">
-    <meta name="twitter:image" content="{{ '/images/matteo-appodia.jpg' | absolute_url }}">
+    <!-- FAVICON OTTIMIZZATE PER BROWSER E RICERCA GOOGLE -->
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
 
-    <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
-    
     <!-- TITOLO SEO DINAMICO -->
     <title>{% if page.title %}{{ page.title }} • Dott. Matteo Appodia Fisioterapista{% else %}Fisioterapia a Domicilio Foligno e dintorni • Dott. Matteo Appodia{% endif %}</title>
     
-    <!-- META DESCRIPTION PER GOOGLE -->
+    <!-- META DESCRIPTION E INDICIZZAZIONE GOOGLE -->
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Fisioterapia a domicilio a Foligno, Trevi, Spello, Assisi, Campello, Bastia Umbra. Riabilitazione muscoloscheletrica, neurologica e post-operatoria basata sulle evidenze. Servizio HCP INPS.{% endif %}">
     <meta name="author" content="Matteo Appodia">
     <meta name="robots" content="index, follow">
-    
-    <!-- URL CANONICAL -->
     <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-    <!-- OPEN GRAPH -->
+    <!-- META TAG OPEN GRAPH (ANTEPRIMA WHATSAPP E SOCIAL) -->
     <meta property="og:locale" content="it_IT">
     <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Matteo Appodia • Fisioterapia a Domicilio Foligno e dintorni{% endif %}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Fisioterapia e riabilitazione a domicilio nelle zone di Foligno, Spoleto, Assisi e Bastia Umbra.{% endif %}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:site_name" content="Matteo Appodia Fisioterapista">
-    {% if page.image %}
-    <meta property="og:image" content="{{ page.image | absolute_url }}">
-    {% endif %}
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Matteo Appodia • Fisioterapia a Domicilio Foligno e dintorni{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Fisioterapia a domicilio a Foligno e dintorni. Riabilitazione muscoloscheletrica, neurologica, post-operatoria e per anziani basata su evidenze scientifiche.{% endif %}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/images/matteo-appodia.jpg' | absolute_url }}{% endif %}">
 
-    <!-- LINK CSS AUTOMATICO CON relative_url -->
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Matteo Appodia • Fisioterapia a Domicilio Foligno e dintorni{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Fisioterapia a domicilio a Foligno e dintorni. Esercizio terapeutico ed educazione al dolore.{% endif %}">
+    <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ '/images/matteo-appodia.jpg' | absolute_url }}{% endif %}">
+
+    <!-- FOGLI DI STILE -->
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-  <!-- DATI STRUTTURATI GOOGLE SCHEMA.ORG -->
-    <script type="application/ld+json"> 
-        {
-                                          "@context": "https://schema.org",
-                                          "@type": "Physiotherapist",
-                                          "name": "Matteo Appodia Fisioterapia a Domicilio",
-                                          "image": "{{ '/images/matteo-appodia.jpg' | absolute_url }}",
-                                          "telephone": "+393703448214",
-                                          "email": "matteo.appodia02@gmail.com",
-                                          "vatID": "03975090543",
-                                          "priceRange": "€€",
-                                          "address": {
-                                            "@type": "PostalAddress",
-                                            "addressLocality": "Foligno",
-                                            "addressRegion": "PG",
-                                            "addressCountry": "IT"
-                                        },
-      "areaServed": [
-                        { "@type": "City", "name": "Foligno" },
-                        { "@type": "City", "name": "Spello" },
-                        { "@type": "City", "name": "Trevi" },
-                        { "@type": "City", "name": "Bevagna" },
-                        { "@type": "City", "name": "Montefalco" },
-                        { "@type": "City", "name": "Bastia Umbra" },
-                        { "@type": "City", "name": "Campello" },
-                        { "@type": "City", "name": "Assisi" },
-                        { "@type": "City", "name": "Spoleto" }
-                      ],
-     "medicalSpecialty": [
-            "Musculoskeletal",
-            "Neurologic",
-            "Physiotherapy",
-            "Elderly"
-        ],
-    "url": "{{ '/' | absolute_url }}"
+    <!-- DATI STRUTTURATI GOOGLE: NOME DEL SITO (SITE NAME) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Matteo Appodia Fisioterapista",
+      "alternateName": "Appo Physio",
+      "url": "{{ '/' | absolute_url }}"
     }
     </script>
-<!-- Meta Pixel Code -->
+
+    <!-- DATI STRUTTURATI GOOGLE: ATTIVITÀ LOCALE -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physiotherapist",
+      "name": "Matteo Appodia Fisioterapia a Domicilio",
+      "image": "{{ '/images/matteo-appodia.jpg' | absolute_url }}",
+      "telephone": "+393703448214",
+      "email": "matteo.appodia02@gmail.com",
+      "vatID": "03975090543",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Foligno",
+        "addressRegion": "PG",
+        "addressCountry": "IT"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Foligno" },
+        { "@type": "City", "name": "Spello" },
+        { "@type": "City", "name": "Trevi" },
+        { "@type": "City", "name": "Bevagna" },
+        { "@type": "City", "name": "Montefalco" },
+        { "@type": "City", "name": "Bastia Umbra" },
+        { "@type": "City", "name": "Campello" },
+        { "@type": "City", "name": "Assisi" },
+        { "@type": "City", "name": "Spoleto" }
+      ],
+      "medicalSpecialty": [
+        "Musculoskeletal",
+        "Neurologic",
+        "Physiotherapy",
+        "Elderly"
+      ],
+      "url": "{{ '/' | absolute_url }}"
+    }
+    </script>
+
+    <!-- Meta Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -116,8 +113,135 @@
     src="https://www.facebook.com/tr?id=28751288394535937&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    
-        <!-- BARRA CONTATTO FISSA SU MOBILE -->
+</head>
+<body>
+
+    <!-- Header / Navigazione Principale -->
+    <header class="site-header" style="background-color: var(--primary); padding: 15px 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div class="container" style="display: flex; align-items: center; justify-content: space-between; position: relative;">
+            
+            <!-- Logo / Titolo -->
+            <a href="{{ site.baseurl }}/" style="color: #ffffff; text-decoration: none; font-size: 1.3rem; font-weight: 700; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-user-md" style="color: var(--accent);"></i>
+                <span>Matteo Appodia <small style="font-size: 0.8rem; font-weight: 400; display: block; color: #94a3b8;">Fisioterapista a Domicilio</small></span>
+            </a>
+
+            <!-- Pulsante Hamburger (visibile solo su mobile via CSS) -->
+            <button id="mobile-menu-btn" aria-label="Apri Menu" style="background: none; border: none; color: #ffffff; font-size: 1.8rem; cursor: pointer; display: none;">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Menu di Navigazione -->
+            <nav id="site-nav">
+                <ul style="display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; align-items: center;">
+                    <li><a href="{{ site.baseurl }}/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/su-di-me/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Su di me</a></li>
+                    <li><a href="{{ site.baseurl }}/fisioterapia-a-domicilio/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Servizi</a></li>
+                    <li><a href="{{ site.baseurl }}/blog/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Blog</a></li>
+                    <li><a href="{{ site.baseurl }}/contatti/" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.95rem;">Contattami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Regole CSS per la gestione Mobile e Script di attivazione -->
+    <style>
+    @media (max-width: 768px) {
+        #mobile-menu-btn {
+            display: block !important;
+        }
+
+        #site-nav {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: var(--primary);
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        #site-nav.active {
+            display: block !important;
+        }
+
+        #site-nav ul {
+            flex-direction: column !important;
+            gap: 15px !important;
+            align-items: flex-start !important;
+        }
+
+        #site-nav ul li a {
+            display: block;
+            padding: 8px 0;
+            font-size: 1.1rem;
+        }
+    }
+    </style>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const menuBtn = document.getElementById("mobile-menu-btn");
+        const nav = document.getElementById("site-nav");
+
+        if (menuBtn && nav) {
+            menuBtn.addEventListener("click", function() {
+                nav.classList.toggle("active");
+                const icon = menuBtn.querySelector("i");
+                if (nav.classList.contains("active")) {
+                    icon.classList.remove("fa-bars");
+                    icon.classList.add("fa-times");
+                } else {
+                    icon.classList.remove("fa-times");
+                    icon.classList.add("fa-bars");
+                }
+            });
+        }
+    });
+    </script>
+
+    <!-- Contenuto della pagina o dell'articolo -->
+    {{ content }}
+        
+    <footer style="background-color: #0f172a; color: #cbd5e1; padding: 50px 0 20px 0; font-size: 0.95rem;">
+        <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; margin-bottom: 40px;">
+            
+            <!-- Colonna 1: Info Studio -->
+            <div>
+                <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Dott. Matteo Appodia</h3>
+                <p style="line-height: 1.6; margin-bottom: 10px;">Fisioterapista iscritto all'Albo. Servizio di riabilitazione e fisioterapia a domicilio basato su evidenze scientifiche ed esercizio attivo.</p>
+                <p style="margin: 0;"><strong>P.IVA:</strong> 03975090543</p>
+            </div>
+
+            <!-- Colonna 2: Servizi Domiciliari -->
+            <div>
+                <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Percorsi Riabilitativi</h3>
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                    <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" style="color: #cbd5e1; text-decoration: none;">Anziani e Autonomia</a></li>
+                    <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" style="color: #cbd5e1; text-decoration: none;">Gestione Dolori Articolari</a></li>
+                    <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" style="color: #cbd5e1; text-decoration: none;">Riabilitazione Neurologica</a></li>
+                    <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" style="color: #cbd5e1; text-decoration: none;">Riabilitazione Post-Chirurgica</a></li>
+                </ul>
+            </div>
+
+            <!-- Colonna 3: Zone Servite & Contatti -->
+            <div>
+                <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Zone di Copertura</h3>
+                <p style="line-height: 1.6; margin-bottom: 10px;">Foligno, Spello, Trevi, Bevagna, Montefalco, Assisi, Bastia Umbra, Spoleto.</p>
+                <p style="margin-bottom: 5px;"><i class="fas fa-phone" style="color: var(--accent);"></i> <a href="tel:+393703448214" style="color: #ffffff; text-decoration: none;">370 344 8214</a></p>
+                <p style="margin: 0;"><i class="fas fa-envelope" style="color: var(--accent);"></i> <a href="mailto:matteo.appodia02@gmail.com" style="color: #ffffff; text-decoration: none;">matteo.appodia02@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="container" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; font-size: 0.85rem; color: #94a3b8;">
+            <p style="margin: 0;">&copy; 2026 Dott. Matteo Appodia • Tutti i diritti riservati | <a href="{{ site.baseurl }}/privacy-policy/" style="color: #94a3b8; text-decoration: underline;">Privacy & Cookie Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- BARRA CONTATTO FISSA SU MOBILE -->
     <div class="mobile-sticky-bar">
         <a href="tel:+393703448214" class="sticky-btn btn-call">
             <i class="fas fa-phone-alt"></i> Chiama ora
@@ -164,133 +288,6 @@
         body { padding-bottom: 65px; }
     }
     </style>
-    </head>
-    <body>
-
-    <!-- Header / Navigazione Principale -->
-   <header class="site-header" style="background-color: var(--primary); padding: 15px 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-    <div class="container" style="display: flex; align-items: center; justify-content: space-between; position: relative;">
-        
-        <!-- Logo / Titolo -->
-        <a href="{{ site.baseurl }}/" style="color: #ffffff; text-decoration: none; font-size: 1.3rem; font-weight: 700; display: flex; align-items: center; gap: 10px;">
-            <i class="fas fa-user-md" style="color: var(--accent);"></i>
-            <span>Matteo Appodia <small style="font-size: 0.8rem; font-weight: 400; display: block; color: #94a3b8;">Fisioterapista a Domicilio</small></span>
-        </a>
-
-        <!-- Pulsante Hamburger (visibile solo su mobile via CSS) -->
-        <button id="mobile-menu-btn" aria-label="Apri Menu" style="background: none; border: none; color: #ffffff; font-size: 1.8rem; cursor: pointer; display: none;">
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <!-- Menu di Navigazione -->
-        <nav id="site-nav">
-            <ul style="display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; align-items: center;">
-                <li><a href="{{ site.baseurl }}/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Home</a></li>
-                <li><a href="{{ site.baseurl }}/su-di-me/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Su di me</a></li>
-                <li><a href="{{ site.baseurl }}/fisioterapia-a-domicilio/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Servizi</a></li>
-                <li><a href="{{ site.baseurl }}/blog/" style="color: #ffffff; text-decoration: none; font-weight: 500;">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/contatti/" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.95rem;">Contattami</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
-<!-- Regole CSS per la gestione Mobile e Script di attivazione -->
-<style>
-@media (max-width: 768px) {
-    #mobile-menu-btn {
-        display: block !important;
-    }
-
-    #site-nav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: var(--primary);
-        padding: 20px;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        border-top: 1px solid rgba(255,255,255,0.1);
-    }
-
-    #site-nav.active {
-        display: block !important;
-    }
-
-    #site-nav ul {
-        flex-direction: column !important;
-        gap: 15px !important;
-        align-items: flex-start !important;
-    }
-
-    #site-nav ul li a {
-        display: block;
-        padding: 8px 0;
-        font-size: 1.1rem;
-    }
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const menuBtn = document.getElementById("mobile-menu-btn");
-    const nav = document.getElementById("site-nav");
-
-    if (menuBtn && nav) {
-        menuBtn.addEventListener("click", function() {
-            nav.classList.toggle("active");
-            const icon = menuBtn.querySelector("i");
-            if (nav.classList.contains("active")) {
-                icon.classList.remove("fa-bars");
-                icon.classList.add("fa-times");
-            } else {
-                icon.classList.remove("fa-times");
-                icon.classList.add("fa-bars");
-            }
-        });
-    }
-});
-</script>
-
-    <!-- Contenuto della pagina o dell'articolo -->
-    {{ content }}
-        
-   <footer style="background-color: #0f172a; color: #cbd5e1; padding: 50px 0 20px 0; font-size: 0.95rem;">
-    <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; margin-bottom: 40px;">
-        
-        <!-- Colonna 1: Info Studio -->
-        <div>
-            <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Dott. Matteo Appodia</h3>
-            <p style="line-height: 1.6; margin-bottom: 10px;">Fisioterapista iscritto all'Albo. Servizio di riabilitazione e fisioterapia a domicilio basato su evidenze scientifiche ed esercizio attivo.</p>
-            <p style="margin: 0;"><strong>P.IVA:</strong> 03975090543</p>
-        </div>
-
-        <!-- Colonna 2: Servizi Domiciliari -->
-        <div>
-            <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Percorsi Riabilitativi</h3>
-            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
-                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/anziani/" style="color: #cbd5e1; text-decoration: none;">Anziani e Autonomia</a></li>
-                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/dolori-articolari/" style="color: #cbd5e1; text-decoration: none;">Gestione Dolori Articolari</a></li>
-                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/neurologica/" style="color: #cbd5e1; text-decoration: none;">Riabilitazione Neurologica</a></li>
-                <li><a href="{{ site.baseurl }}/fisioterapia-domicilio/post-chirurgica/" style="color: #cbd5e1; text-decoration: none;">Riabilitazione Post-Chirurgica</a></li>
-            </ul>
-        </div>
-
-        <!-- Colonna 3: Zone Servite & Contatti -->
-        <div>
-            <h3 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px;">Zone di Copertura</h3>
-            <p style="line-height: 1.6; margin-bottom: 10px;">Foligno, Spello, Trevi, Bevagna, Montefalco, Assisi, Bastia Umbra, Spoleto.</p>
-            <p style="margin-bottom: 5px;"><i class="fas fa-phone" style="color: var(--accent);"></i> <a href="tel:+393703448214" style="color: #ffffff; text-decoration: none;">370 344 8214</a></p>
-            <p style="margin: 0;"><i class="fas fa-envelope" style="color: var(--accent);"></i> <a href="mailto:matteo.appodia02@gmail.com" style="color: #ffffff; text-decoration: none;">matteo.appodia02@gmail.com</a></p>
-        </div>
-
-    </div>
-
-    <div class="container" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; font-size: 0.85rem; color: #94a3b8;">
-        <p style="margin: 0;">&copy; 2026 Dott. Matteo Appodia • Tutti i diritti riservati | <a href="{{ site.baseurl }}/privacy-policy/" style="color: #94a3b8; text-decoration: underline;">Privacy & Cookie Policy</a></p>
-    </div>
-</footer>
 
 </body>
 </html>
